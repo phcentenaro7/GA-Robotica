@@ -19,6 +19,277 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{BAZARAA2010}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d49fc6bf7e7df63e3aa0d0c0defdc8c6}{%
+           family={Bazaraa},
+           familyi={B\bibinitperiod},
+           given={Mokhtar\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7a16d0f3804df9927248f786155f816d}{%
+           family={Jarvis},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c7a93a377090566041bd7086145bd015}{%
+           family={Sherali},
+           familyi={S\bibinitperiod},
+           given={Hanif\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Hoboken, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{fullhash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{bibnamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authorbibnamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authornamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authorfullhash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-0-470-46272-0}
+      \field{title}{Linear Programming and Network Flows}
+      \field{year}{2010}
+    \endentry
+    \entry{BERTSIMAS1997}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5b57425178d5ae2d2835ef44cb330e42}{%
+           family={Bertsimas},
+           familyi={B\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c68e0327319b548306afacf417d06ebf}{%
+           family={Tsitsiklis},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Belmont, Massachusetts}%
+      }
+      \list{publisher}{2}{%
+        {Athena Scientific}%
+        {Dynamic Ideas}%
+      }
+      \strng{namehash}{c45925647d08f7da29491319a56e359a}
+      \strng{fullhash}{c45925647d08f7da29491319a56e359a}
+      \strng{bibnamehash}{c45925647d08f7da29491319a56e359a}
+      \strng{authorbibnamehash}{c45925647d08f7da29491319a56e359a}
+      \strng{authornamehash}{c45925647d08f7da29491319a56e359a}
+      \strng{authorfullhash}{c45925647d08f7da29491319a56e359a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-1-886529-19-9}
+      \field{title}{Introduction to Linear Optimization}
+      \field{year}{1997}
+    \endentry
+    \entry{CENTENARO2023}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=12508bd8dd9d628f0f7f5494ed8905f2}{%
+           family={Centenaro},
+           familyi={C\bibinitperiod},
+           given={Pedro\bibnamedelima Henrique},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=540f5590d8cda5ac2cf9d65c314773ef}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Luiz-Rafael},
+           giveni={L\bibinithyphendelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{05bf3edc4668f6420f7c848e3530d9c7}
+      \strng{fullhash}{05bf3edc4668f6420f7c848e3530d9c7}
+      \strng{bibnamehash}{05bf3edc4668f6420f7c848e3530d9c7}
+      \strng{authorbibnamehash}{05bf3edc4668f6420f7c848e3530d9c7}
+      \strng{authornamehash}{05bf3edc4668f6420f7c848e3530d9c7}
+      \strng{authorfullhash}{05bf3edc4668f6420f7c848e3530d9c7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentos matemáticos e computacionais de problemas de roteamento de veículos}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+    \endentry
+    \entry{DELAHAYE2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e6d1900f733514d5c9b670410ae08c3f}{%
+           family={Chaimatanan},
+           familyi={C\bibinitperiod},
+           given={Supatcha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0aa4f8579303710b71430ead48cc5909}{%
+           family={Mongeau},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{fullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{bibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorbibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authornamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorfullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Handbook of metaheuristics}
+      \field{title}{Simulated annealing: From basics to applications}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+    \endentry
+    \entry{GEORGE1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c3475e35954864b0296c80ad888f5dba}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0cfa4546b4cc8af927d30cdf15059e85}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={D.F.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{fullhash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{bibnamehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authorbibnamehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authornamehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authorfullhash}{f4882abe5f70c8d4afab1756843b65f0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03050548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{A heuristic for packing boxes into a container}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{1980}
+      \field{urldateera}{ce}
+      \field{pages}{147\bibrangedash 156}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0305-0548(80)90001-5
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \endverb
+    \endentry
+    \entry{LIU2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0138deaf332692ced30d823b9cebc488}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=833b22246faf325b78735f2c3ac58add}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Chengyu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b4cc71f66ccd6f55b877380a708a101e}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qingfu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=620aec1647bd20268c9490f065fe44f6}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Xialiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=60896c34bf4ff44aab77e848efa554e1}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Mingxuan},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3e2ca47748eb0c5a65d12f76d1076e4}
+      \strng{fullhash}{f6179582330caa790ecef8da5e443b34}
+      \strng{bibnamehash}{f6179582330caa790ecef8da5e443b34}
+      \strng{authorbibnamehash}{f6179582330caa790ecef8da5e443b34}
+      \strng{authornamehash}{a3e2ca47748eb0c5a65d12f76d1076e4}
+      \strng{authorfullhash}{f6179582330caa790ecef8da5e443b34}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2303.04147}
+      \field{title}{Heuristics for vehicle routing problem: A survey and recent advances}
+      \field{year}{2023}
+    \endentry
+    \entry{RIBEIRO2013}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fcdbb3819d1bc3a2e7d021db9e285a74}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Ademir\bibnamedelima Alves},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=494a448b4806d540c402e814c190df37}{%
+           family={Karas},
+           familyi={K\bibinitperiod},
+           given={Elizabeth\bibnamedelima Wegner},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Curitiba}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{fullhash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{bibnamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authorbibnamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authornamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authorfullhash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Otimização Contínua: Aspectos Teóricos e Computacionais}
+      \field{year}{2013}
+    \endentry
     \entry{STEWART2016}{book}{}
       \name{author}{1}{}{%
         {{hash=37b12c56a8629449e8994f442b4d8c35}{%
