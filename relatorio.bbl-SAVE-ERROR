@@ -16,5 +16,671 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ALARIE2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8e5ea33b1f349df1da1f5bd73344900b}{%
+           family={Alarie},
+           familyi={A\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ed0b747bdbc1c890273435f38ee58f68}{%
+           family={Audet},
+           familyi={A\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2bdf72a45d4ddd7a7054ee5b150943f9}{%
+           family={Gheribi},
+           familyi={G\bibinitperiod},
+           given={Aïmen\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=69530c6080b229f8f79df93d8180984c}{%
+           family={Kokkolaras},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f8dcdc0444430fd3436df675026f900d}{%
+           family={Le\bibnamedelima Digabel},
+           familyi={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{eaa7ca500775c2ca44b41c74ee8fb894}
+      \strng{fullhash}{1a20a53e35d0722cc305f94a0f4769c8}
+      \strng{bibnamehash}{1a20a53e35d0722cc305f94a0f4769c8}
+      \strng{authorbibnamehash}{1a20a53e35d0722cc305f94a0f4769c8}
+      \strng{authornamehash}{eaa7ca500775c2ca44b41c74ee8fb894}
+      \strng{authorfullhash}{1a20a53e35d0722cc305f94a0f4769c8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article reviews blackbox optimization applications of direct search optimization methods over the past twenty years. Emphasis is placed on the Mesh Adaptive Direct Search (Mads) derivative-free optimization algorithm. The main focus is on applications in three specific fields: energy, materials science, and computational engineering design. Nevertheless, other applications in science and engineering, including patents, are also considered. The breadth of applications demonstrates the versatility of Mads and highlights the evolution of its accompanying software NOMAD as a standard tool for blackbox optimization.}
+      \field{issn}{2192-4406}
+      \field{journaltitle}{EURO Journal on Computational Optimization}
+      \field{month}{1}
+      \field{title}{Two Decades of Blackbox Optimization Applications}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{100011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ejco.2021.100011
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\GYAJ2H7H\S2192440621001386.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
+      \endverb
+      \keyw{Applications,Blackbox optimization,Derivative-free optimization,Mesh adaptive direct search}
+    \endentry
+    \entry{BAZARAA2010}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d49fc6bf7e7df63e3aa0d0c0defdc8c6}{%
+           family={Bazaraa},
+           familyi={B\bibinitperiod},
+           given={Mokhtar\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7a16d0f3804df9927248f786155f816d}{%
+           family={Jarvis},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c7a93a377090566041bd7086145bd015}{%
+           family={Sherali},
+           familyi={S\bibinitperiod},
+           given={Hanif\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{fullhash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{bibnamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authorbibnamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authornamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authorfullhash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Linear {{Programming}} and {{Network Flows}}}
+      \field{year}{2010}
+    \endentry
+    \entry{BERTSIMAS1997}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5b57425178d5ae2d2835ef44cb330e42}{%
+           family={Bertsimas},
+           familyi={B\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c68e0327319b548306afacf417d06ebf}{%
+           family={Tsitsiklis},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Athena Scientific, Dynamic Ideas}%
+      }
+      \strng{namehash}{c45925647d08f7da29491319a56e359a}
+      \strng{fullhash}{c45925647d08f7da29491319a56e359a}
+      \strng{bibnamehash}{c45925647d08f7da29491319a56e359a}
+      \strng{authorbibnamehash}{c45925647d08f7da29491319a56e359a}
+      \strng{authornamehash}{c45925647d08f7da29491319a56e359a}
+      \strng{authorfullhash}{c45925647d08f7da29491319a56e359a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to {{Linear Optimization}}}
+      \field{year}{1997}
+    \endentry
+    \entry{CENTENARO2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=12508bd8dd9d628f0f7f5494ed8905f2}{%
+           family={Centenaro},
+           familyi={C\bibinitperiod},
+           given={Pedro\bibnamedelima Henrique},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{fullhash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{bibnamehash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{authorbibnamehash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{authornamehash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{authorfullhash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Os problemas de roteamento de veículos (PRVs) dizem respeito à escolha da melhor rota que cada veículo de uma ou mais frotas pode realizar, dado um conjunto de pontos de atendimento. Entre os problemas desta categoria, podemos citar a entrega de encomendas, a definição de linhas de ônibus, o posicionamento de ambulâncias, a coleta de lixo e muitos outros. Dependendo da natureza do problema, é possível encontrar restrições quanto às capacidades de carga dos veículos, às janelas de tempo disponíveis para servir cada ponto, ao consumo de energia dos veículos elétricos e vários outros fatores. O objetivo deste trabalho de iniciação científica é estudar os aspectos matemáticos da modelagem e resolução computacional dos PRVs. Para tal, várias abordagens foram utilizadas. Para contextualizar e motivar o estudo da roteirização de veículos, estudaram-se tendências de urbanização, entre as quais pode-se citar a substituição gradual de ônibus a combustão por veículos elétricos ou híbridos. Entre as muitas barreiras à introdução destes veículos nas frotas, uma notável é a necessidade de garantir que as linhas dos ônibus elétricos e híbridos sejam otimizadas, de modo que os gastos com estações de recarga sejam compensados o mais rápido possível, sem prejudicar a população. Estudou-se também o espraiamento urbano, condição na qual a população mais pobre de uma cidade é forçada a estabelecer moradia em regiões marginais. Como resultado, definir rotas de ônibus que melhor atendam todos os cidadãos se torna um processo mais complicado. Para compreender a matemática por trás dos PRVs, estudaram-se teoria de grafos e otimização linear. A terminologia dos grafos é muito difundida entre pesquisadores de roteirização e, portanto, sua investigação é necessária para o processo de modelagem dos problemas. Já a otimização linear é usada em conjunto com outras técnicas para resolver os modelos gerados. O estudo de otimização linear deste trabalho resultou na implementação de um pacote em linguagem Julia, o Caique.jl, que resolve problemas utilizando o método simplex. Este pacote pode ser acessado em https://github.com/phcentenaro7/Caique.jl. Para realizar testes computacionais de roteirização, optou-se por modelar três formulações do problema do caixeiro viajante (PCV, o PRV mais simples que existe), implementando-as no pacote JuMP, do Julia, que faz a tradução dos modelos para cada uma das três ferramentas de resolução (solvers) testadas. Foi possível constatar diferenças nos desempenhos das formulações e dos solvers e relacioná-las a questões matemáticas relatadas na literatura. Por fim, constatou-se a possibilidade de interpretar e comparar modelos mais complexos de PRVs com base no que foi aprendido com os PCVs. Concluiu-se que este trabalho abre espaço a investigações mais aprofundadas sobre PRVs no futuro.}
+      \field{title}{Fundamentos Matemáticos e Computacionais de Problemas de Roteamento de Veículos}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+    \endentry
+    \entry{DELAHAYE2019}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e6d1900f733514d5c9b670410ae08c3f}{%
+           family={Chaimatanan},
+           familyi={C\bibinitperiod},
+           given={Supatcha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0aa4f8579303710b71430ead48cc5909}{%
+           family={Mongeau},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{%
+           family={Gendreau},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=156d517208f70e145503aa8b5ec9849b}{%
+           family={Potvin},
+           familyi={P\bibinitperiod},
+           given={Jean-Yves},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{fullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{bibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorbibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authornamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorfullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{editorbibnamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editornamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorfullhash}{428631794113b74d16ac1f3a6f241136}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Handbook of {{Metaheuristics}}}
+      \field{isbn}{978-3-319-91085-7 978-3-319-91086-4}
+      \field{langid}{english}
+      \field{shorttitle}{Simulated {{Annealing}}}
+      \field{title}{Simulated {{Annealing}}: {{From Basics}} to {{Applications}}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{272}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/978-3-319-91086-4_1
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\9ACJKHCX\Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
+      \endverb
+    \endentry
+    \entry{GENDREAU2010}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{%
+           family={Gendreau},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=156d517208f70e145503aa8b5ec9849b}{%
+           family={Potvin},
+           familyi={P\bibinitperiod},
+           given={Jean-Yves},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{fullhash}{428631794113b74d16ac1f3a6f241136}
+      \strng{bibnamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorbibnamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editornamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorfullhash}{428631794113b74d16ac1f3a6f241136}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic algorithms (GAs) have become popular as a means of solving hard combinatorial optimization problems. The first part of this chapter briefly traces their history, explains the basic concepts and discusses some of their theoretical aspects. It also references a number of sources for further research into their applications. The second part concentrates on the detailed implementation of a GA. It discusses the fundamentals of encoding a `genotype' in different circumstances and describes the mechanics of population selection and management and the choice of genetic `operators' for generating new populations. In closing, some specific guidelines for using GAs in practice are provided.}
+      \field{isbn}{978-1-4419-1663-1 978-1-4419-1665-5}
+      \field{langid}{english}
+      \field{series}{International {{Series}} in {{Operations Research}} \& {{Management Science}}}
+      \field{title}{Handbook of {{Metaheuristics}}}
+      \field{urlday}{3}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{146}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4419-1665-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\E7262WVJ\Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
+      \endverb
+    \endentry
+    \entry{GEORGE1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c3475e35954864b0296c80ad888f5dba}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0cfa4546b4cc8af927d30cdf15059e85}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={D.F.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{fullhash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{bibnamehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authorbibnamehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authornamehash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authorfullhash}{f4882abe5f70c8d4afab1756843b65f0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Given a container of known dimensions and a collection of rectangular boxes with known dimensions and number of boxes of each type, the problem is to find suitable positions for placing the boxes in the container in such a way that all the boxes can be fitted in. A heuristic for computer or manual operation is described.}
+      \field{issn}{03050548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{A Heuristic for Packing Boxes into a Container}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{1980}
+      \field{urldateera}{ce}
+      \field{pages}{147\bibrangedash 156}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0305-0548(80)90001-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\EGQTJQGP\George and Robinson - 1980 - A heuristic for packing boxes into a container
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \endverb
+    \endentry
+    \entry{HERMAWANTO2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=01f8fdc9af0d84483195589637a89d48}{%
+           family={Hermawanto},
+           familyi={H\bibinitperiod},
+           given={Denny},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{fullhash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{bibnamehash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{authorbibnamehash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{authornamehash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{authorfullhash}{01f8fdc9af0d84483195589637a89d48}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper explains genetic algorithm for novice in this field. Basic philosophy of genetic algorithm and its flowchart are described. Step by step numerical computation of genetic algorithm for solving simple mathematical equality problem will be briefly explained.}
+      \field{langid}{english}
+      \field{title}{Genetic {{Algorithm}} for {{Solving Simple Mathematical Equality Problem}}}
+      \field{year}{2013}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\7JEMVBUF\Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
+      \endverb
+    \endentry
+    \entry{LIU2023}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=0138deaf332692ced30d823b9cebc488}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=833b22246faf325b78735f2c3ac58add}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Chengyu},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b4cc71f66ccd6f55b877380a708a101e}{%
+           family={Gui},
+           familyi={G\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b2e22db866fa79372f07034ed0140d0e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qingfu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=620aec1647bd20268c9490f065fe44f6}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Xialiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=60896c34bf4ff44aab77e848efa554e1}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Mingxuan},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{a3e2ca47748eb0c5a65d12f76d1076e4}
+      \strng{fullhash}{f6179582330caa790ecef8da5e443b34}
+      \strng{bibnamehash}{f6179582330caa790ecef8da5e443b34}
+      \strng{authorbibnamehash}{f6179582330caa790ecef8da5e443b34}
+      \strng{authornamehash}{a3e2ca47748eb0c5a65d12f76d1076e4}
+      \strng{authorfullhash}{f6179582330caa790ecef8da5e443b34}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Vehicle routing is a well-known optimization research topic with significant practical importance. Among different approaches to solving vehicle routing, heuristics can produce a satisfactory solution at a reasonable computational cost. Consequently, much effort has been made in the past decades to develop vehicle routing heuristics. In this article, we systematically survey the existing vehicle routing heuristics, particularly on works carried out in recent years. A classification of vehicle routing heuristics is presented, followed by a review of their methodologies, recent developments, and applications. Moreover, we present a general framework of state-of-the-art methods and provide insights into their success. Finally, three emerging research topics with notable works and future directions are discussed.}
+      \field{eprintclass}{cs, math}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{arXiv:2303.04147}
+      \field{shorttitle}{Heuristics for {{Vehicle Routing Problem}}}
+      \field{title}{Heuristics for {{Vehicle Routing Problem}}: {{A Survey}} and {{Recent Advances}}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2303.04147
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\6EPRE9NR\2303.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2303.04147
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2303.04147
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Mathematics - Optimization and Control}
+    \endentry
+    \entry{MURAWSKI2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=10b795dc2c3498c2c0026a37e8addc88}{%
+           family={Murawski},
+           familyi={M\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=da829e1622fc4a4f7b7600c7cb6d18e0}{%
+           family={Bossaerts},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{f986b46d05b31965e598fbb12028e856}
+      \strng{fullhash}{f986b46d05b31965e598fbb12028e856}
+      \strng{bibnamehash}{f986b46d05b31965e598fbb12028e856}
+      \strng{authorbibnamehash}{f986b46d05b31965e598fbb12028e856}
+      \strng{authornamehash}{f986b46d05b31965e598fbb12028e856}
+      \strng{authorfullhash}{f986b46d05b31965e598fbb12028e856}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Life presents us with problems of varying complexity. Yet, complexity is not accounted for in theories of human decision-making. Here we study instances of the knapsack problem, a discrete optimisation problem commonly encountered at all levels of cognition, from attention gating to intellectual discovery. Complexity of this problem is well understood from the perspective of a mechanical device like a computer. We show experimentally that human performance too decreased with complexity as defined in computer science. Defying traditional economic principles, participants spent effort way beyond the point where marginal gain was positive, and economic performance increased with instance difficulty. Human attempts at solving the instances exhibited commonalities with algorithms developed for computers, although biological resource constraints--limited working and episodic memories--had noticeable impact. Consistent with the very nature of the knapsack problem, only a minority of participants found the solution--often quickly--but the ones who did appeared not to realise. Substantial heterogeneity emerged, suggesting why prizes and patents, schemes that incentivise intellectual discovery but discourage information sharing, have been found to be less effective than mechanisms that reveal private information, such as markets.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shorttitle}{How {{Humans Solve Complex Problems}}}
+      \field{title}{How {{Humans Solve Complex Problems}}: {{The Case}} of the {{Knapsack Problem}}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{34851}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep34851
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\ZSN7PRT3\Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/srep34851
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/srep34851
+      \endverb
+      \keyw{Computational models,Human behaviour}
+    \endentry
+    \entry{RIBEIRO2013}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fcdbb3819d1bc3a2e7d021db9e285a74}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Ademir\bibnamedelima Alves},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=494a448b4806d540c402e814c190df37}{%
+           family={Karas},
+           familyi={K\bibinitperiod},
+           given={Elizabeth\bibnamedelima Wegner},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Curitiba}%
+      }
+      \list{publisher}{1}{%
+        {Editora Cengage}%
+      }
+      \strng{namehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{fullhash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{bibnamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authorbibnamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authornamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authorfullhash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Otimização {{Contínua}}: {{Aspectos Teóricos}} e {{Computacionais}}}
+      \field{year}{2013}
+    \endentry
+    \entry{ROEVA2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=133e4ab593ec1410406a4504c974ecdc}{%
+           family={Roeva},
+           familyi={R\bibinitperiod},
+           given={Olympia},
+           giveni={O\bibinitperiod}}}%
+        {{hash=e718d9c97187f0d11cce09483c4e369c}{%
+           family={Fidanova},
+           familyi={F\bibinitperiod},
+           given={Stefka},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7a9bf22b07dc621f233ca30964427c63}{%
+           family={Paprzycki},
+           familyi={P\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{fullhash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{bibnamehash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{authorbibnamehash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{authornamehash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{authorfullhash}{a074b4db788f620a017e9b4a810ed897}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, an investigation of the influence of the population size on the genetic algorithm (GA) performance for a model parameter identification problem, is considered. The mathematical model of an E. coli fed-batch cultivation process is studied. The three model parameters -- maximum specific growth rate ({\textmu}max), saturation constant (kS) and yield coefficient (YS/X ) are estimated using different population sizes. Population sizes between 5 and 200 chromosomes in the population are tested with constant number of generations. In order to obtain meaningful information about the influence of the population size a considerable number of independent runs of the GA are performed. The observed results show that the optimal population size is 100 chromosomes for 200 generations. In this case accurate model parameters values are obtained in reasonable computational time. Further increase of the population size, above 100 chromosomes, does not improve the solution accuracy. Moreover, the computational time is increased significantly.}
+      \field{langid}{english}
+      \field{title}{Influence of the {{Population Size}} on the {{Genetic Algorithm Performance}} in {{Case}} of {{Cultivation Process Modelling}}}
+      \field{year}{2013}
+      \verb{file}
+      \verb C\:\\Users\\phc7b\\Zotero\\storage\\H27DIRZA\\Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\L3H47NUI\\1308.4675.pdf
+      \endverb
+    \endentry
+    \entry{SASTRY2005}{incollection}{}
+      \name{editor}{3}{}{%
+        {{hash=ebd2d6aac26c399b8efe3608f75f3fe1}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={Kumara},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d55a57c88a14828a53b9e8db48c889d1}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=efb6f4558def9112948d61982965294c}{%
+           family={Kendall},
+           familyi={K\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{fullhash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{bibnamehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{editorbibnamehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{editornamehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{editorfullhash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Search Methodologies: Introductory Tutorials in Optimization and Decision Support Techniques}
+      \field{isbn}{978-0-387-23460-1 978-0-387-28356-2}
+      \field{langid}{english}
+      \field{title}{Genetic {{Algorithms}}}
+      \field{year}{2005}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\69QEWKSV\Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
+      \endverb
+      \keyw{Decision support systems,Mathematical optimization,Search theory}
+    \endentry
+    \entry{STEWART2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=37b12c56a8629449e8994f442b4d8c35}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{fullhash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{bibnamehash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{authorbibnamehash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{authornamehash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{authorfullhash}{37b12c56a8629449e8994f442b4d8c35}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{Cálculo}
+      \field{volume}{1}
+      \field{year}{2016}
+    \endentry
+    \entry{ZHANG2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=617e1823c3a52470863101944fa8e271}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaolan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{617e1823c3a52470863101944fa8e271}
+      \strng{fullhash}{617e1823c3a52470863101944fa8e271}
+      \strng{bibnamehash}{617e1823c3a52470863101944fa8e271}
+      \strng{authorbibnamehash}{617e1823c3a52470863101944fa8e271}
+      \strng{authornamehash}{617e1823c3a52470863101944fa8e271}
+      \strng{authorfullhash}{617e1823c3a52470863101944fa8e271}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Linear {{Programming}}}
+      \field{year}{2020}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\F34RJ42W\Zhang - LinearProgramming.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
+      \endverb
+      \verb{url}
+      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
