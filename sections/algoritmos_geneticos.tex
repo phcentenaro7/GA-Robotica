@@ -22,9 +22,9 @@ Na avaliação, os cromossomos da população atual são avaliados pela função
 
 O processo de seleção leva em conta os resultados da etapa de avaliação para definir casais (pares) de cromossomos. Os métodos de seleção costumam implementar processos estocásticos em que os cromossomos com avaliações melhores são favorecidos. Na sequência, são abordados alguns métodos.
 
-\textbf{Método da roleta \cite{CARVALHO}:} Sejam $n \geq 2$ o tamanho da população e $q_i$ ($i = 1, \dots, n$) os valores de aptidão de cada solução. A cada solução $i$ é associada uma probabilidade $p_i = q_i / \sum_{j=1}^{n}q_j$ de que $i$ seja selecionada. À solução 1 fica atribuído o intervalo $I_1 = [0, p_1]$. A partir disso, é possível determinar os intervalos das soluções $k = 2, \dots, n$, em sequência, com $I_k = \left(\sum_{j=1}^{k-1}p_j, \sum_{j=1}^{k}p_j\right]$. Evidentemente, $\cup_{j=1}^{n}I_j = [0, 1]$, então, gera-se um valor aleatório $r \in [0, 1]$, de modo que $r \in I_k$ significa que a solução $k$ deve ser selecionada.
+\textbf{Método da roleta:} Sejam $n \geq 2$ o tamanho da população e $q_i$ ($i = 1, \dots, n$) os valores de aptidão de cada solução. A cada solução $i$ é associada uma probabilidade $p_i = q_i / \sum_{j=1}^{n}q_j$ de que $i$ seja selecionada. À solução 1 fica atribuído o intervalo $I_1 = [0, p_1]$. A partir disso, é possível determinar os intervalos das soluções $k = 2, \dots, n$, em sequência, com $I_k = \left(\sum_{j=1}^{k-1}p_j, \sum_{j=1}^{k}p_j\right]$. Evidentemente, $\cup_{j=1}^{n}I_j = [0, 1]$, então, gera-se um valor aleatório $r \in [0, 1]$, de modo que $r \in I_k$ significa que a solução $k$ deve ser selecionada \cite{CARVALHO,SASTRY2005}.
 
-A título de exemplo, supõe-se uma população de cinco soluções, cujos dados são apresentados na \cref{tab:roleta}. A roleta obtida é apresentada na \cref{fig:roleta}. Desta maneira, fica claro que as melhores soluções têm mais chances de serem selecionadas para cruzamento.
+A título de exemplo, supõe-se uma população de cinco soluções, cujos dados são apresentados na \cref{tab:roleta}.
 
 \begin{table}[ht]
     \centering
@@ -43,11 +43,23 @@ A título de exemplo, supõe-se uma população de cinco soluções, cujos dados
     \end{tabular}
 \end{table}
 
+\textbf{Método de \emph{ranking}:} Neste método, ordenam-se as soluções da pior para a melhor, baseado em seus valores de aptidão. Em seguida, a cada solução $k$ é atribuido um valor $r_k$ equivalente à posição da solução na lista ordenada. Desta forma, a pior solução tem $r_k = 1$, e a melhor solução tem $r_k = n$. Estes valores substituem os valores de aptidão durante o processo de seleção, e o método procede como o da roleta.
+
+Aplicando-se o método de \emph{ranking} às soluções da \cref{tab:roleta}, obtém-se um resultado diferente do método da roleta. A \cref{fig:roleta e ranking} compara visualmente as probabilidades geradas por ambos os métodos. Como as probabilidades no método de \emph{ranking} são independentes dos valores de aptidão das soluções, este método pode ser mais interessante quando poucas soluções têm valor de aptidão muito mais alto do que as demais, pois aumenta as chances de soluções de menos qualidade serem selecionadas \cite{YADAV2017}. Apesar de isso parecer contraintuitivo, é importante permitir que soluções piores contribuam para o desenvolvimento genético da população, pois isso permite uma maior exploração do conjunto de soluções.
+
 \begin{figure}[ht]
     \centering
     \begin{tikzpicture}
-        \pie{15.6/Sol. 1, 31.3/Sol. 2, 25.4/Sol. 3, 11.1/Sol. 4, 16.6/Sol. 5}
+        \matrix[column sep = 1cm]{
+        \pie{15.6/$S_1$, 31.3/$S_2$, 25.4/$S_3$, 11.1/$S_4$, 16.6/$S_5$}
+        &
+        \pie{13.3/$S_1$, 33.3/$S_2$, 26.7/$S_3$, 20/$S_4$, 6.7/$S_5$}\\
+        };
     \end{tikzpicture}
-    \caption{Probabilidades de seleção de soluções pelo método da roleta.}
-    \label{fig:roleta}
+    \caption{Probabilidades de seleção de soluções pelos métodos da roleta (esquerda) e de \emph{ranking} (direita).}
+    \label{fig:roleta e ranking}
 \end{figure}
+
+\textbf{Método de torneio:} Seja $P$ a população de soluções de um problema. O método de torneio escolhe subconjuntos $S_i \subseteq P$  de soluções da população e então seleciona a melhor solução de cada subconjunto $S_i$. Assim como o método de \emph{ranking}, este método pode aumentar as probabilidades de seleções piores serem selecionadas, dependendo da maneira como os subconjuntos $S_i$ forem determinados. Geralmente, este método é implementado com torneios de duas soluções, o que o torna uma forma muito rápida de seleção e garante maior variedade de qualidade das soluções escolhidas \cite{SHUKLA2015}.
+
+\textbf{Método de Boltzmann:} Este método é similar ao RS. Existe um parâmetro de temperatura que diminui ao longo do tempo. A altas temperaturas, as chances de selecionar quaisquer soluções são quase iguais. Já a temperaturas mais baixas, as chances de selecionar soluções melhores aumentam.

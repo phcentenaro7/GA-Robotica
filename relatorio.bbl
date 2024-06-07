@@ -74,13 +74,7 @@
       \verb 10.1016/j.ejco.2021.100011
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\GYAJ2H7H\S2192440621001386.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
+      \verb /home/pcentenaro/Zotero/storage/GYAJ2H7H/S2192440621001386.html
       \endverb
       \keyw{Applications,Blackbox optimization,Derivative-free optimization,Mesh adaptive direct search}
     \endentry
@@ -168,19 +162,14 @@
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{howpublished}{https://sites.icmc.usp.br/andre/research/genetic/}
       \field{title}{Algoritmos {{Genéticos}}}
       \field{urlday}{5}
       \field{urlmonth}{6}
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\EQN6JRBC\genetic.html
-      \endverb
-      \verb{urlraw}
-      \verb https://sites.icmc.usp.br/andre/research/genetic/
-      \endverb
-      \verb{url}
-      \verb https://sites.icmc.usp.br/andre/research/genetic/
+      \verb /home/pcentenaro/Zotero/storage/EQN6JRBC/genetic.html
       \endverb
     \endentry
     \entry{CENTENARO2023}{misc}{}
@@ -204,12 +193,6 @@
       \field{abstract}{Os problemas de roteamento de veículos (PRVs) dizem respeito à escolha da melhor rota que cada veículo de uma ou mais frotas pode realizar, dado um conjunto de pontos de atendimento. Entre os problemas desta categoria, podemos citar a entrega de encomendas, a definição de linhas de ônibus, o posicionamento de ambulâncias, a coleta de lixo e muitos outros. Dependendo da natureza do problema, é possível encontrar restrições quanto às capacidades de carga dos veículos, às janelas de tempo disponíveis para servir cada ponto, ao consumo de energia dos veículos elétricos e vários outros fatores. O objetivo deste trabalho de iniciação científica é estudar os aspectos matemáticos da modelagem e resolução computacional dos PRVs. Para tal, várias abordagens foram utilizadas. Para contextualizar e motivar o estudo da roteirização de veículos, estudaram-se tendências de urbanização, entre as quais pode-se citar a substituição gradual de ônibus a combustão por veículos elétricos ou híbridos. Entre as muitas barreiras à introdução destes veículos nas frotas, uma notável é a necessidade de garantir que as linhas dos ônibus elétricos e híbridos sejam otimizadas, de modo que os gastos com estações de recarga sejam compensados o mais rápido possível, sem prejudicar a população. Estudou-se também o espraiamento urbano, condição na qual a população mais pobre de uma cidade é forçada a estabelecer moradia em regiões marginais. Como resultado, definir rotas de ônibus que melhor atendam todos os cidadãos se torna um processo mais complicado. Para compreender a matemática por trás dos PRVs, estudaram-se teoria de grafos e otimização linear. A terminologia dos grafos é muito difundida entre pesquisadores de roteirização e, portanto, sua investigação é necessária para o processo de modelagem dos problemas. Já a otimização linear é usada em conjunto com outras técnicas para resolver os modelos gerados. O estudo de otimização linear deste trabalho resultou na implementação de um pacote em linguagem Julia, o Caique.jl, que resolve problemas utilizando o método simplex. Este pacote pode ser acessado em https://github.com/phcentenaro7/Caique.jl. Para realizar testes computacionais de roteirização, optou-se por modelar três formulações do problema do caixeiro viajante (PCV, o PRV mais simples que existe), implementando-as no pacote JuMP, do Julia, que faz a tradução dos modelos para cada uma das três ferramentas de resolução (solvers) testadas. Foi possível constatar diferenças nos desempenhos das formulações e dos solvers e relacioná-las a questões matemáticas relatadas na literatura. Por fim, constatou-se a possibilidade de interpretar e comparar modelos mais complexos de PRVs com base no que foi aprendido com os PCVs. Concluiu-se que este trabalho abre espaço a investigações mais aprofundadas sobre PRVs no futuro.}
       \field{title}{Fundamentos Matemáticos e Computacionais de Problemas de Roteamento de Veículos}
       \field{year}{2023}
-      \verb{urlraw}
-      \verb https://repositorio.ufsc.br/handle/123456789/250623
-      \endverb
-      \verb{url}
-      \verb https://repositorio.ufsc.br/handle/123456789/250623
-      \endverb
     \endentry
     \entry{DELAHAYE2019}{incollection}{}
       \name{author}{3}{}{%
@@ -277,13 +260,7 @@
       \verb 10.1007/978-3-319-91086-4_1
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\9ACJKHCX\Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
+      \verb /home/pcentenaro/Zotero/storage/9ACJKHCX/Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
       \endverb
     \endentry
     \entry{GENDREAU2010}{book}{}
@@ -330,13 +307,7 @@
       \verb 10.1007/978-1-4419-1665-5
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\E7262WVJ\Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
+      \verb /home/pcentenaro/Zotero/storage/E7262WVJ/Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
       \endverb
     \endentry
     \entry{GEORGE1980}{article}{}
@@ -381,13 +352,7 @@
       \verb 10.1016/0305-0548(80)90001-5
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\EGQTJQGP\George and Robinson - 1980 - A heuristic for packing boxes into a container
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \verb /home/pcentenaro/Zotero/storage/EGQTJQGP/George and Robinson - 1980 - A heuristic for packing boxes into a container
       \endverb
     \endentry
     \entry{HERMAWANTO2013}{article}{}
@@ -413,7 +378,7 @@
       \field{title}{Genetic {{Algorithm}} for {{Solving Simple Mathematical Equality Problem}}}
       \field{year}{2013}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\7JEMVBUF\Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
+      \verb /home/pcentenaro/Zotero/storage/7JEMVBUF/Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
       \endverb
     \endentry
     \entry{LIU2023}{misc}{}
@@ -479,13 +444,7 @@
       \verb 2303.04147
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\6EPRE9NR\2303.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2303.04147
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2303.04147
+      \verb /home/pcentenaro/Zotero/storage/6EPRE9NR/2303.pdf
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Mathematics - Optimization and Control}
     \endentry
@@ -535,13 +494,7 @@
       \verb 10.1038/srep34851
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\ZSN7PRT3\Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/srep34851
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/srep34851
+      \verb /home/pcentenaro/Zotero/storage/ZSN7PRT3/Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
       \endverb
       \keyw{Computational models,Human behaviour}
     \endentry
@@ -611,7 +564,7 @@
       \field{title}{Influence of the {{Population Size}} on the {{Genetic Algorithm Performance}} in {{Case}} of {{Cultivation Process Modelling}}}
       \field{year}{2013}
       \verb{file}
-      \verb C\:\\Users\\phc7b\\Zotero\\storage\\H27DIRZA\\Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\L3H47NUI\\1308.4675.pdf
+      \verb /home/pcentenaro/Zotero/storage/H27DIRZA/Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;/home/pcentenaro/Zotero/storage/L3H47NUI/1308.4675.pdf
       \endverb
     \endentry
     \entry{SASTRY2005}{incollection}{}
@@ -654,9 +607,56 @@
       \field{title}{Genetic {{Algorithms}}}
       \field{year}{2005}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\69QEWKSV\Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
+      \verb /home/pcentenaro/Zotero/storage/69QEWKSV/Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
       \endverb
       \keyw{Decision support systems,Mathematical optimization,Search theory}
+    \endentry
+    \entry{SHUKLA2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6a2d1e7bddfd2f0239d0f14660850be5}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Anupriya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5434aef9fc225a500ad519bd394a62b3}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={Hari\bibnamedelima Mohan},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4b89b831a6858a6f2e7035fe6052ecd9}{%
+           family={Mehrotra},
+           familyi={M\bibinitperiod},
+           given={Deepti},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{fullhash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{bibnamehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authorbibnamehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authornamehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authorfullhash}{c652dd09d101b314c7bfafee3f93bb78}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper compares various selection techniques used in Genetic Algorithm. Genetic algorithms are optimization search algorithms that maximize or minimizes given functions. Indentifying the appropriate selection technique is a critical step in genetic algorithm. The process of selection plays an important role in resolving premature convergence because it occurs due to lack of diversity in the population. Therefore selection of population in each generation is very important. In this study, we have reported the significant work conducted on various selection techniques and the comparison of selection techniques.}
+      \field{booktitle}{2015 {{International Conference}} on {{Futuristic Trends}} on {{Computational Analysis}} and {{Knowledge Management}} ({{ABLAZE}})}
+      \field{month}{2}
+      \field{title}{Comparative Review of Selection Techniques in Genetic Algorithm}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{515\bibrangedash 519}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ABLAZE.2015.7154916
+      \endverb
+      \verb{file}
+      \verb /home/pcentenaro/Zotero/storage/NT8YZNDA/Shukla et al. - 2015 - Comparative review of selection techniques in gene.pdf;/home/pcentenaro/Zotero/storage/IKSYN47J/7154916.html
+      \endverb
+      \keyw{Convergence,Genetic Algorithm,Genetic algorithms,Knowledge management,Market research,proportionate roulette wheel selection,Ranking Selection,Sociology,Statistics,tournament selection,Wheels}
     \endentry
     \entry{STEWART2016}{book}{}
       \name{author}{1}{}{%
@@ -684,6 +684,40 @@
       \field{volume}{1}
       \field{year}{2016}
     \endentry
+    \entry{YADAV2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f9662844ef73fc660ee04689622235cd}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Saneh\bibnamedelima Lata},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0ed39a4d174ca8635af2ba5ee0b9708c}{%
+           family={Sohal},
+           familyi={S\bibinitperiod},
+           given={Asha},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{fullhash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{bibnamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authorbibnamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authornamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authorfullhash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic Algorithm is search and optimization technique which has number of steps like initialization, selection, crossover, mutation and replacement. Genetic algorithms are optimization search algorithms that maximize or minimizes given functions. Since GA is heuristic procedures, they are not guaranteed to find the optimum, but experience has shown that they are able to find very good solutions for a wide range of problems. In this paper focus is given on selection phase of GA and comparison between different selection techniques of GA. In selection operator individual are selected according to their fitness and chooses those chromosomes in the population that will be allowed to reproduce, and on average the fitter chromosomes produce more offspring than the less fit ones. Researcher has done lot of work in selection phase of GA. In this paper a number of selection techniques have been described like roulette wheel selection, rank selection, tournament selection, steady state selection, Boltzmann selection and Elitism selection.}
+      \field{journaltitle}{International Journal of Engineering}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Comparative {{Study}} of {{Different Selection Techniques}} in {{Genetic Algorithm}}}
+      \field{volume}{6}
+      \field{year}{2017}
+      \verb{file}
+      \verb /home/pcentenaro/Zotero/storage/GI9HRRX3/Yadav and Sohal - 2017 - Comparative Study of Different Selection Technique.pdf
+      \endverb
+    \endentry
     \entry{ZHANG2020}{article}{}
       \name{author}{1}{}{%
         {{hash=617e1823c3a52470863101944fa8e271}{%
@@ -706,13 +740,7 @@
       \field{title}{Linear {{Programming}}}
       \field{year}{2020}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\F34RJ42W\Zhang - LinearProgramming.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
-      \endverb
-      \verb{url}
-      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
+      \verb /home/pcentenaro/Zotero/storage/F34RJ42W/Zhang - LinearProgramming.pdf
       \endverb
     \endentry
   \enddatalist

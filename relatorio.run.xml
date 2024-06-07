@@ -51,6 +51,7 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
@@ -58,6 +59,8 @@
       <file>numeric-comp.bbx</file>
       <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
+      <file>portuguese.lbx</file>
+      <file>portuges.lbx</file>
       <file>brazilian.lbx</file>
       <file>brazil.lbx</file>
     </requires>
