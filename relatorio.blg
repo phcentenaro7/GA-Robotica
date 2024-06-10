@@ -1,20 +1,20 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'relatorio.blg'
-[206] biber-MSWIN64:340> INFO - === 
-[280] Biber.pm:419> INFO - Reading 'relatorio.bcf'
-[569] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
-[593] Biber.pm:4419> INFO - Processing section 0
-[616] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[744] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1027] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[1335] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1335] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1335] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
-[1335] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
-[1383] bbl.pm:660> INFO - Writing 'relatorio.bbl' with encoding 'UTF-8'
-[1409] bbl.pm:763> INFO - Output to relatorio.bbl
-[1409] Biber.pm:131> WARN - Duplicate entry key: 'KATOCH2021' in file 'bibliography.bib', skipping ...
-[1409] Biber.pm:131> WARN - ISBN '978-3-319-91085-7 978-3-319-91086-4' in entry 'DELAHAYE2019' is invalid - run biber with '--validate_datamodel' for details.
-[1409] Biber.pm:131> WARN - ISBN '978-1-4419-1663-1 978-1-4419-1665-5' in entry 'GENDREAU2010' is invalid - run biber with '--validate_datamodel' for details.
-[1409] Biber.pm:131> WARN - ISBN '978-0-387-23460-1 978-0-387-28356-2' in entry 'SASTRY2005' is invalid - run biber with '--validate_datamodel' for details.
-[1410] Biber.pm:133> INFO - WARNINGS: 4
+[71] biber:340> INFO - === seg jun 10, 2024, 15:15:24
+[84] Biber.pm:418> INFO - Reading 'relatorio.bcf'
+[145] Biber.pm:972> INFO - Found 23 citekeys in bib section 0
+[157] Biber.pm:4383> INFO - Processing section 0
+[166] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[172] bibtex.pm:1713> INFO - LaTeX decoding ...
+[306] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[475] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[475] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[475] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
+[475] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[498] bbl.pm:654> INFO - Writing 'relatorio.bbl' with encoding 'UTF-8'
+[511] bbl.pm:757> INFO - Output to relatorio.bbl
+[511] Biber.pm:130> WARN - Duplicate entry key: 'KATOCH2021' in file 'bibliography.bib', skipping ...
+[511] Biber.pm:130> WARN - ISBN '978-3-319-91085-7 978-3-319-91086-4' in entry 'DELAHAYE2019' is invalid - run biber with '--validate_datamodel' for details.
+[511] Biber.pm:130> WARN - ISBN '978-1-4419-1663-1 978-1-4419-1665-5' in entry 'GENDREAU2010' is invalid - run biber with '--validate_datamodel' for details.
+[511] Biber.pm:130> WARN - ISBN '978-0-387-23460-1 978-0-387-28356-2' in entry 'SASTRY2005' is invalid - run biber with '--validate_datamodel' for details.
+[511] Biber.pm:132> INFO - WARNINGS: 4
