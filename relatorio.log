@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.13)  10 JUN 2024 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.13)  10 JUN 2024 20:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1592,11 +1592,11 @@ LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 1
 
 
 
-] [7] [8] [9] [10]) [11] [12]
+] [7] [8] [9] [10] [11] [12]) [13]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 19.
  (C:\Users\phc7b\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [13
+) [14
 
 
 ]
@@ -1609,7 +1609,7 @@ Overfull \hbox (11.60889pt too wide) in paragraph at lines 20--20
 \T1/cmr/m/n/12 2015, pp. 515^^U519. \T1/cmr/m/sc/12 doi\T1/cmr/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1109 / ABLAZE . 2015 . 7154916$[][]\T1/cmr/m/n/12 . \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/cmtt/m/n/12 https : / / ieeexplore .
  []
 
-[14] [15] (relatorio.aux (sections/visao_geral.aux) (sections/algoritmos_geneticos.aux))
+[15] [16] (relatorio.aux (sections/visao_geral.aux) (sections/algoritmos_geneticos.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1621,17 +1621,17 @@ Package logreq Info: Writing requests to 'relatorio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59238 strings out of 474485
- 1365512 string characters out of 5743734
- 2365538 words of memory out of 5000000
- 80496 multiletter control sequences out of 15000+600000
+ 59255 strings out of 474485
+ 1365897 string characters out of 5743734
+ 2366971 words of memory out of 5000000
+ 80507 multiletter control sequences out of 15000+600000
  574887 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 118i,16n,131p,10983b,2259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,16n,131p,10983b,2261s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\phc7b\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phc7b/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on relatorio.pdf (15 pages, 305382 bytes).
+Output written on relatorio.pdf (16 pages, 319144 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 748 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

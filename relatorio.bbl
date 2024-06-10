@@ -925,6 +925,38 @@
       \endverb
       \keyw{Convergence,Genetic Algorithm,Genetic algorithms,Knowledge management,Market research,proportionate roulette wheel selection,Ranking Selection,Sociology,Statistics,tournament selection,Wheels}
     \endentry
+    \entry{SONI2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cc492503a0011e022110df6932b27c60}{%
+           family={Soni},
+           familyi={S\bibinitperiod},
+           given={Nitasha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ca5be8e23dab9e4b357d5b5933044c80}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Tapas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d00f09a20e50923e8c2316a787f817a1}
+      \strng{fullhash}{d00f09a20e50923e8c2316a787f817a1}
+      \strng{bibnamehash}{d00f09a20e50923e8c2316a787f817a1}
+      \strng{authorbibnamehash}{d00f09a20e50923e8c2316a787f817a1}
+      \strng{authornamehash}{d00f09a20e50923e8c2316a787f817a1}
+      \strng{authorfullhash}{d00f09a20e50923e8c2316a787f817a1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic Algorithms are the population based search and optimization technique that mimic the process of natural evolution. Different crossover and mutation operators exist to solve the problem that involves large population size. Example of such a problem is travelling sales man problem, which is having a large set of solution. In this paper we will discuss different mutation operators that help in solving the problem.}
+      \field{langid}{english}
+      \field{title}{Study of {{Various Mutation Operators}} in {{Genetic Algorithms}}}
+      \field{volume}{5}
+      \field{year}{2014}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\U2T6C3T4\Soni and Kumar - 2014 - Study of Various Mutation Operators in Genetic Alg.pdf
+      \endverb
+    \endentry
     \entry{STEWART2016}{book}{}
       \name{author}{1}{}{%
         {{hash=37b12c56a8629449e8994f442b4d8c35}{%

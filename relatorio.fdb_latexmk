@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber relatorio"] 1718034321.33866 "relatorio.bcf" "relatorio.bbl" "relatorio" 1718034416.5802 0
-  "bibliography.bib" 1718033022 66653 fb65eaae906513e11dfc3832731fad6e ""
-  "relatorio.bcf" 1718034415 110495 d281c1cc2f81ef07eaad7e68b1f241e0 "pdflatex"
+["biber relatorio"] 1718061526.2669 "relatorio.bcf" "relatorio.bbl" "relatorio" 1718063162.49357 0
+  "bibliography.bib" 1718060697 67422 e7f6609dbe532cc28b5365e1c5b2c307 ""
+  "relatorio.bcf" 1718063161 110623 43b2e30a1e9eca1fe4b32ec4b1377744 "pdflatex"
   (generated)
   "relatorio.bbl"
   "relatorio.blg"
   (rewritten before read)
-["pdflatex"] 1718034405.31349 "c:/Users/phc7b/Documents/UFSC/Fase 9/Robótica/GA-Robotica/relatorio.tex" "relatorio.pdf" "relatorio" 1718034416.58284 0
+["pdflatex"] 1718063149.96499 "c:/Users/phc7b/Documents/UFSC/Fase 9/Robótica/GA-Robotica/relatorio.tex" "relatorio.pdf" "relatorio" 1718063162.49497 0
   "C:/Users/phc7b/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717635059 84437 4ea8adf0f1aae422082e66d4cb124ed6 ""
   "C:/Users/phc7b/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbi1200.pk" 1717973152 42728 51beaa35002964b766dd0766050c9e5f ""
   "C:/Users/phc7b/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1715963379 31952 a2685af0a94bf4c938787bc1cb0f10cc ""
@@ -350,15 +350,15 @@
   "C:/Users/phc7b/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "C:/Users/phc7b/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "C:/Users/phc7b/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "c:/Users/phc7b/Documents/UFSC/Fase 9/Robótica/GA-Robotica/relatorio.tex" 1717635888 387 ac7a0fbb3469e0fcf5d29b3e2449b93f ""
-  "relatorio.aux" 1718034415 7374 526a90d086cbd03f631f85824c037abf "pdflatex"
-  "relatorio.bbl" 1718034325 53781 b2afcd3c4915f995f6e3203991e2bc14 "biber relatorio"
-  "relatorio.out" 1718034412 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "relatorio.run.xml" 1718034415 2415 41d96c323c23d88b43c2c0d2669f37a4 "pdflatex"
-  "relatorio.tex" 1717635888 387 ac7a0fbb3469e0fcf5d29b3e2449b93f ""
-  "sections/algoritmos_geneticos.aux" 1718034415 7998 8728858aad4ee9343d7f8ffe3b5d0063 "pdflatex"
-  "sections/algoritmos_geneticos.tex" 1718034391 19670 e39458b7b6f7d84ea3a44c7bfea50009 ""
-  "sections/visao_geral.aux" 1718034413 5352 115ebf22bd054761be6d050c084e0a4f "pdflatex"
+  "c:/Users/phc7b/Documents/UFSC/Fase 9/Robótica/GA-Robotica/relatorio.tex" 1718063148 441 9cb532bd3e0586f28eb2055c2afc5c3c ""
+  "relatorio.aux" 1718063161 7733 29de745a5613016e18b889ccb179a93d "pdflatex"
+  "relatorio.bbl" 1718061531 55562 be926918935f6793b51cad0fbbba3553 "biber relatorio"
+  "relatorio.out" 1718063158 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "relatorio.run.xml" 1718063161 2415 41d96c323c23d88b43c2c0d2669f37a4 "pdflatex"
+  "relatorio.tex" 1718063148 441 9cb532bd3e0586f28eb2055c2afc5c3c ""
+  "sections/algoritmos_geneticos.aux" 1718063161 9198 6a1cac423baf4af0456d9c85ee47cb18 "pdflatex"
+  "sections/algoritmos_geneticos.tex" 1718063013 24411 7908d38f0391ea4a96d207a0eb7095d3 ""
+  "sections/visao_geral.aux" 1718063159 5352 115ebf22bd054761be6d050c084e0a4f "pdflatex"
   "sections/visao_geral.tex" 1717610444 9461 4edab83845735c03230228d47075badd ""
   "style.sty" 1718026789 6587 c0c849c13cc8df41987224e7f1da3dca ""
   (generated)
