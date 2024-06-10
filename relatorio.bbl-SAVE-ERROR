@@ -84,6 +84,53 @@
       \endverb
       \keyw{Applications,Blackbox optimization,Derivative-free optimization,Mesh adaptive direct search}
     \endentry
+    \entry{BARCELLOS2000}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a73f3f6ff675d5c62ed208bf0e02a237}{%
+           family={Barcellos},
+           familyi={B\bibinitperiod},
+           given={João\bibnamedelimb Carlos\bibnamedelimb Holland\bibnamedelima De},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de São Paulo}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{fullhash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{bibnamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authorbibnamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authornamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authorfullhash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{portuguese}
+      \field{month}{4}
+      \field{shorttitle}{{Algoritmos genéticos adaptativos}}
+      \field{title}{{Algoritmos genéticos adaptativos: um estudo comparativo.}}
+      \field{type}{{Mestrado em Sistemas Digitais}}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.11606/D.3.2000.tde-05092001-141334
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\LKYUN9XQ\Barcellos - 2000 - Algoritmos genéticos adaptativos um estudo compar.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.teses.usp.br/teses/disponiveis/3/3141/tde-05092001-141334/
+      \endverb
+      \verb{url}
+      \verb http://www.teses.usp.br/teses/disponiveis/3/3141/tde-05092001-141334/
+      \endverb
+    \endentry
     \entry{BAZARAA2010}{book}{}
       \name{author}{3}{}{%
         {{hash=d49fc6bf7e7df63e3aa0d0c0defdc8c6}{%
@@ -148,6 +195,41 @@
       \field{title}{Introduction to {{Linear Optimization}}}
       \field{year}{1997}
     \endentry
+    \entry{CARVALHO}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=775d99133d5615d3ebc043e13e2f0d1a}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={André\bibnamedelimb Ponce\bibnamedelimb de\bibnamedelimb Leon\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{fullhash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{bibnamehash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{authorbibnamehash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{authornamehash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{authorfullhash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Algoritmos {{Genéticos}}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\EQN6JRBC\genetic.html
+      \endverb
+      \verb{urlraw}
+      \verb https://sites.icmc.usp.br/andre/research/genetic/
+      \endverb
+      \verb{url}
+      \verb https://sites.icmc.usp.br/andre/research/genetic/
+      \endverb
+    \endentry
     \entry{CENTENARO2023}{misc}{}
       \name{author}{1}{}{%
         {{hash=12508bd8dd9d628f0f7f5494ed8905f2}{%
@@ -175,6 +257,44 @@
       \verb{url}
       \verb https://repositorio.ufsc.br/handle/123456789/250623
       \endverb
+    \endentry
+    \entry{DAVIS1985}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7ba97d0451d256e105b6c0c7a99b8481}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers Inc.}%
+      }
+      \strng{namehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{fullhash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{bibnamehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authorbibnamehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authornamehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authorfullhash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{John Holland has shown that when adaptive algorithms are used to search certain kinds of extremely large problem spaces, they will converge on a "good" solution fairly quickly. Such problem spaces are characterized by a low degree of epistasis. A host of classical search problems, however, are epistatic in nature. The present paper describes some new techniques for applying adaptive algorithms to epistatic domains, while retaining some of the strength of Holland's convergence proof. These techniques are described for two-dimensional bin-packing problems, and summarized for graph coloring problems. What makes these problems amenable to an adaptive approach is a two-stage evaluation procedure. Encodings of solutions are mutated and reproduced as they are in non-epistatic domains, but their evaluation is carried out after a decoding process. Using the techniques described, convergence is promoted in two ways: one of the natural mutation operators is a weaker version of Holland's crossover, and domain knowledge may be built into decoding processes so that the size of the search space is radically cut down.}
+      \field{booktitle}{Proceedings of the 9th International Joint Conference on {{Artificial}} Intelligence - {{Volume}} 1}
+      \field{isbn}{978-0-934613-02-6}
+      \field{month}{8}
+      \field{series}{{{IJCAI}}'85}
+      \field{title}{Applying Adaptive Algorithms to Epistatic Domains}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{162\bibrangedash 164}
+      \range{pages}{3}
     \endentry
     \entry{DELAHAYE2019}{incollection}{}
       \name{author}{3}{}{%
@@ -381,6 +501,63 @@
       \verb C:\Users\phc7b\Zotero\storage\7JEMVBUF\Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
       \endverb
     \endentry
+    \entry{KATOCH2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fda3358187a4813b12cc84afd9636dde}{%
+           family={Katoch},
+           familyi={K\bibinitperiod},
+           given={Sourabh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=034226d7a1f1953f14206341c1b56d66}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Sumit\bibnamedelima Singh},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3c2a6a0658f1ad90e7d4a83eef9c3841}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{fullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{bibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorbibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authornamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorfullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, the analysis of recent advances in genetic algorithms is discussed. The genetic algorithms of great interest in research community are selected for analysis. This review will help the new and demanding researchers to provide the wider vision of genetic algorithms. The well-known algorithms and their implementation are presented with their pros and cons. The genetic operators and their usages are discussed with the aim of facilitating new researchers. The different research domains involved in genetic algorithms are covered. The future research directions in the area of genetic operators, fitness function and hybrid algorithms are discussed. This structured review will be helpful for research and graduate teaching.}
+      \field{issn}{1380-7501, 1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{5}
+      \field{shorttitle}{A Review on Genetic Algorithm}
+      \field{title}{A Review on Genetic Algorithm: Past, Present, and Future}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{80}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{8091\bibrangedash 8126}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/s11042-020-10139-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\MNTU3I9G\Katoch et al. - 2021 - A review on genetic algorithm past, present, and .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s11042-020-10139-6
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11042-020-10139-6
+      \endverb
+    \endentry
     \entry{LIU2023}{misc}{}
       \name{author}{6}{}{%
         {{hash=0138deaf332692ced30d823b9cebc488}{%
@@ -510,6 +687,51 @@
       \endverb
       \keyw{Computational models,Human behaviour}
     \endentry
+    \entry{OTERO2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=20a0063bc2cd2fdcb7ab8a31872263a7}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={Johnny\bibnamedelimb Alexander\bibnamedelima Bastidas},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro, Brazil}%
+      }
+      \strng{namehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{fullhash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{bibnamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authorbibnamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authornamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authorfullhash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{{{ALGORITMOS GENÉTICOS APLICADOS À SOLUÇÃO DO PROBLEMA INVERSO BIOMAGNÉTICO}}}
+      \field{type}{{{MESTRE EM ENGENHARIA ELÉTRICA}}}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17771/PUCRio.acad.28372
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\C3Q7LJP6\Alexander Bastidas Otero - 2016 - ALGORITMOS GENÉTICOS APLICADOS À SOLUÇÃO DO PROBLE.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=28372@1
+      \endverb
+      \verb{url}
+      \verb http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=28372@1
+      \endverb
+    \endentry
     \entry{RIBEIRO2013}{book}{}
       \name{author}{2}{}{%
         {{hash=fcdbb3819d1bc3a2e7d021db9e285a74}{%
@@ -579,6 +801,33 @@
       \verb C\:\\Users\\phc7b\\Zotero\\storage\\H27DIRZA\\Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\L3H47NUI\\1308.4675.pdf
       \endverb
     \endentry
+    \entry{SAIYED2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a31ac67d2a5ec45bfd257cf1b3d1d00}{%
+           family={Saiyed},
+           familyi={S\bibinitperiod},
+           given={Amanur\bibnamedelima Rahman},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{fullhash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{bibnamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authorbibnamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authornamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authorfullhash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Traveling Salesman Problem, deals with creating the ideal path that a salesman would take while traveling between cities. The solution to any given TSP would be the Shortest way to visit a finite number of cities, visiting each city only once, and then returning to the starting point. We also must assume that if there are two cities, city A and city B for example, it costs the same amount of money to travel from A to B as it does from B to A. For the most part, the solving of a TSP is no longer executed for the intention its name indicates. Instead, it is a foundation for studying general methods that are applied to a wide range of optimization problems.}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{The {{Traveling Salesman}} Problem}
+      \field{year}{2012}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\CN3W9L9X\Saiyed - The Traveling Salesman problem.pdf
+      \endverb
+    \endentry
     \entry{SASTRY2005}{incollection}{}
       \name{editor}{3}{}{%
         {{hash=ebd2d6aac26c399b8efe3608f75f3fe1}{%
@@ -623,6 +872,59 @@
       \endverb
       \keyw{Decision support systems,Mathematical optimization,Search theory}
     \endentry
+    \entry{SHUKLA2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6a2d1e7bddfd2f0239d0f14660850be5}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Anupriya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5434aef9fc225a500ad519bd394a62b3}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={Hari\bibnamedelima Mohan},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4b89b831a6858a6f2e7035fe6052ecd9}{%
+           family={Mehrotra},
+           familyi={M\bibinitperiod},
+           given={Deepti},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{fullhash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{bibnamehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authorbibnamehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authornamehash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authorfullhash}{c652dd09d101b314c7bfafee3f93bb78}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper compares various selection techniques used in Genetic Algorithm. Genetic algorithms are optimization search algorithms that maximize or minimizes given functions. Indentifying the appropriate selection technique is a critical step in genetic algorithm. The process of selection plays an important role in resolving premature convergence because it occurs due to lack of diversity in the population. Therefore selection of population in each generation is very important. In this study, we have reported the significant work conducted on various selection techniques and the comparison of selection techniques.}
+      \field{booktitle}{2015 {{International Conference}} on {{Futuristic Trends}} on {{Computational Analysis}} and {{Knowledge Management}} ({{ABLAZE}})}
+      \field{month}{2}
+      \field{title}{Comparative Review of Selection Techniques in Genetic Algorithm}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{515\bibrangedash 519}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ABLAZE.2015.7154916
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\phc7b\\Zotero\\storage\\NT8YZNDA\\Shukla et al. - 2015 - Comparative review of selection techniques in gene.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\IKSYN47J\\7154916.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7154916
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7154916
+      \endverb
+      \keyw{Convergence,Genetic Algorithm,Genetic algorithms,Knowledge management,Market research,proportionate roulette wheel selection,Ranking Selection,Sociology,Statistics,tournament selection,Wheels}
+    \endentry
     \entry{STEWART2016}{book}{}
       \name{author}{1}{}{%
         {{hash=37b12c56a8629449e8994f442b4d8c35}{%
@@ -648,6 +950,40 @@
       \field{title}{Cálculo}
       \field{volume}{1}
       \field{year}{2016}
+    \endentry
+    \entry{YADAV2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f9662844ef73fc660ee04689622235cd}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Saneh\bibnamedelima Lata},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0ed39a4d174ca8635af2ba5ee0b9708c}{%
+           family={Sohal},
+           familyi={S\bibinitperiod},
+           given={Asha},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{fullhash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{bibnamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authorbibnamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authornamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authorfullhash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Genetic Algorithm is search and optimization technique which has number of steps like initialization, selection, crossover, mutation and replacement. Genetic algorithms are optimization search algorithms that maximize or minimizes given functions. Since GA is heuristic procedures, they are not guaranteed to find the optimum, but experience has shown that they are able to find very good solutions for a wide range of problems. In this paper focus is given on selection phase of GA and comparison between different selection techniques of GA. In selection operator individual are selected according to their fitness and chooses those chromosomes in the population that will be allowed to reproduce, and on average the fitter chromosomes produce more offspring than the less fit ones. Researcher has done lot of work in selection phase of GA. In this paper a number of selection techniques have been described like roulette wheel selection, rank selection, tournament selection, steady state selection, Boltzmann selection and Elitism selection.}
+      \field{journaltitle}{International Journal of Engineering}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Comparative {{Study}} of {{Different Selection Techniques}} in {{Genetic Algorithm}}}
+      \field{volume}{6}
+      \field{year}{2017}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\GI9HRRX3\Yadav and Sohal - 2017 - Comparative Study of Different Selection Technique.pdf
+      \endverb
     \endentry
     \entry{ZHANG2020}{article}{}
       \name{author}{1}{}{%

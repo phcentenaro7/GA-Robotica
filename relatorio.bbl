@@ -74,9 +74,62 @@
       \verb 10.1016/j.ejco.2021.100011
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/GYAJ2H7H/S2192440621001386.html
+      \verb C:\Users\phc7b\Zotero\storage\GYAJ2H7H\S2192440621001386.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
       \endverb
       \keyw{Applications,Blackbox optimization,Derivative-free optimization,Mesh adaptive direct search}
+    \endentry
+    \entry{BARCELLOS2000}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=a73f3f6ff675d5c62ed208bf0e02a237}{%
+           family={Barcellos},
+           familyi={B\bibinitperiod},
+           given={João\bibnamedelimb Carlos\bibnamedelimb Holland\bibnamedelima De},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de São Paulo}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{fullhash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{bibnamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authorbibnamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authornamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authorfullhash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{portuguese}
+      \field{month}{4}
+      \field{shorttitle}{{Algoritmos genéticos adaptativos}}
+      \field{title}{{Algoritmos genéticos adaptativos: um estudo comparativo.}}
+      \field{type}{{Mestrado em Sistemas Digitais}}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.11606/D.3.2000.tde-05092001-141334
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\LKYUN9XQ\Barcellos - 2000 - Algoritmos genéticos adaptativos um estudo compar.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.teses.usp.br/teses/disponiveis/3/3141/tde-05092001-141334/
+      \endverb
+      \verb{url}
+      \verb http://www.teses.usp.br/teses/disponiveis/3/3141/tde-05092001-141334/
+      \endverb
     \endentry
     \entry{BAZARAA2010}{book}{}
       \name{author}{3}{}{%
@@ -162,14 +215,19 @@
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://sites.icmc.usp.br/andre/research/genetic/}
       \field{title}{Algoritmos {{Genéticos}}}
       \field{urlday}{5}
       \field{urlmonth}{6}
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/EQN6JRBC/genetic.html
+      \verb C:\Users\phc7b\Zotero\storage\EQN6JRBC\genetic.html
+      \endverb
+      \verb{urlraw}
+      \verb https://sites.icmc.usp.br/andre/research/genetic/
+      \endverb
+      \verb{url}
+      \verb https://sites.icmc.usp.br/andre/research/genetic/
       \endverb
     \endentry
     \entry{CENTENARO2023}{misc}{}
@@ -193,6 +251,50 @@
       \field{abstract}{Os problemas de roteamento de veículos (PRVs) dizem respeito à escolha da melhor rota que cada veículo de uma ou mais frotas pode realizar, dado um conjunto de pontos de atendimento. Entre os problemas desta categoria, podemos citar a entrega de encomendas, a definição de linhas de ônibus, o posicionamento de ambulâncias, a coleta de lixo e muitos outros. Dependendo da natureza do problema, é possível encontrar restrições quanto às capacidades de carga dos veículos, às janelas de tempo disponíveis para servir cada ponto, ao consumo de energia dos veículos elétricos e vários outros fatores. O objetivo deste trabalho de iniciação científica é estudar os aspectos matemáticos da modelagem e resolução computacional dos PRVs. Para tal, várias abordagens foram utilizadas. Para contextualizar e motivar o estudo da roteirização de veículos, estudaram-se tendências de urbanização, entre as quais pode-se citar a substituição gradual de ônibus a combustão por veículos elétricos ou híbridos. Entre as muitas barreiras à introdução destes veículos nas frotas, uma notável é a necessidade de garantir que as linhas dos ônibus elétricos e híbridos sejam otimizadas, de modo que os gastos com estações de recarga sejam compensados o mais rápido possível, sem prejudicar a população. Estudou-se também o espraiamento urbano, condição na qual a população mais pobre de uma cidade é forçada a estabelecer moradia em regiões marginais. Como resultado, definir rotas de ônibus que melhor atendam todos os cidadãos se torna um processo mais complicado. Para compreender a matemática por trás dos PRVs, estudaram-se teoria de grafos e otimização linear. A terminologia dos grafos é muito difundida entre pesquisadores de roteirização e, portanto, sua investigação é necessária para o processo de modelagem dos problemas. Já a otimização linear é usada em conjunto com outras técnicas para resolver os modelos gerados. O estudo de otimização linear deste trabalho resultou na implementação de um pacote em linguagem Julia, o Caique.jl, que resolve problemas utilizando o método simplex. Este pacote pode ser acessado em https://github.com/phcentenaro7/Caique.jl. Para realizar testes computacionais de roteirização, optou-se por modelar três formulações do problema do caixeiro viajante (PCV, o PRV mais simples que existe), implementando-as no pacote JuMP, do Julia, que faz a tradução dos modelos para cada uma das três ferramentas de resolução (solvers) testadas. Foi possível constatar diferenças nos desempenhos das formulações e dos solvers e relacioná-las a questões matemáticas relatadas na literatura. Por fim, constatou-se a possibilidade de interpretar e comparar modelos mais complexos de PRVs com base no que foi aprendido com os PCVs. Concluiu-se que este trabalho abre espaço a investigações mais aprofundadas sobre PRVs no futuro.}
       \field{title}{Fundamentos Matemáticos e Computacionais de Problemas de Roteamento de Veículos}
       \field{year}{2023}
+      \verb{urlraw}
+      \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+    \endentry
+    \entry{DAVIS1985}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7ba97d0451d256e105b6c0c7a99b8481}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Francisco, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann Publishers Inc.}%
+      }
+      \strng{namehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{fullhash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{bibnamehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authorbibnamehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authornamehash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authorfullhash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{John Holland has shown that when adaptive algorithms are used to search certain kinds of extremely large problem spaces, they will converge on a "good" solution fairly quickly. Such problem spaces are characterized by a low degree of epistasis. A host of classical search problems, however, are epistatic in nature. The present paper describes some new techniques for applying adaptive algorithms to epistatic domains, while retaining some of the strength of Holland's convergence proof. These techniques are described for two-dimensional bin-packing problems, and summarized for graph coloring problems. What makes these problems amenable to an adaptive approach is a two-stage evaluation procedure. Encodings of solutions are mutated and reproduced as they are in non-epistatic domains, but their evaluation is carried out after a decoding process. Using the techniques described, convergence is promoted in two ways: one of the natural mutation operators is a weaker version of Holland's crossover, and domain knowledge may be built into decoding processes so that the size of the search space is radically cut down.}
+      \field{booktitle}{Proceedings of the 9th International Joint Conference on {{Artificial}} Intelligence - {{Volume}} 1}
+      \field{isbn}{978-0-934613-02-6}
+      \field{month}{8}
+      \field{series}{{{IJCAI}}'85}
+      \field{title}{Applying Adaptive Algorithms to Epistatic Domains}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{162\bibrangedash 164}
+      \range{pages}{3}
     \endentry
     \entry{DELAHAYE2019}{incollection}{}
       \name{author}{3}{}{%
@@ -260,7 +362,13 @@
       \verb 10.1007/978-3-319-91086-4_1
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/9ACJKHCX/Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
+      \verb C:\Users\phc7b\Zotero\storage\9ACJKHCX\Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
       \endverb
     \endentry
     \entry{GENDREAU2010}{book}{}
@@ -307,7 +415,13 @@
       \verb 10.1007/978-1-4419-1665-5
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/E7262WVJ/Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
+      \verb C:\Users\phc7b\Zotero\storage\E7262WVJ\Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
       \endverb
     \endentry
     \entry{GEORGE1980}{article}{}
@@ -352,7 +466,13 @@
       \verb 10.1016/0305-0548(80)90001-5
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/EGQTJQGP/George and Robinson - 1980 - A heuristic for packing boxes into a container
+      \verb C:\Users\phc7b\Zotero\storage\EGQTJQGP\George and Robinson - 1980 - A heuristic for packing boxes into a container
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
       \endverb
     \endentry
     \entry{HERMAWANTO2013}{article}{}
@@ -378,7 +498,64 @@
       \field{title}{Genetic {{Algorithm}} for {{Solving Simple Mathematical Equality Problem}}}
       \field{year}{2013}
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/7JEMVBUF/Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
+      \verb C:\Users\phc7b\Zotero\storage\7JEMVBUF\Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
+      \endverb
+    \endentry
+    \entry{KATOCH2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fda3358187a4813b12cc84afd9636dde}{%
+           family={Katoch},
+           familyi={K\bibinitperiod},
+           given={Sourabh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=034226d7a1f1953f14206341c1b56d66}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Sumit\bibnamedelima Singh},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3c2a6a0658f1ad90e7d4a83eef9c3841}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{fullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{bibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorbibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authornamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorfullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, the analysis of recent advances in genetic algorithms is discussed. The genetic algorithms of great interest in research community are selected for analysis. This review will help the new and demanding researchers to provide the wider vision of genetic algorithms. The well-known algorithms and their implementation are presented with their pros and cons. The genetic operators and their usages are discussed with the aim of facilitating new researchers. The different research domains involved in genetic algorithms are covered. The future research directions in the area of genetic operators, fitness function and hybrid algorithms are discussed. This structured review will be helpful for research and graduate teaching.}
+      \field{issn}{1380-7501, 1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{5}
+      \field{shorttitle}{A Review on Genetic Algorithm}
+      \field{title}{A Review on Genetic Algorithm: Past, Present, and Future}
+      \field{urlday}{17}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{80}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{8091\bibrangedash 8126}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/s11042-020-10139-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\MNTU3I9G\Katoch et al. - 2021 - A review on genetic algorithm past, present, and .pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s11042-020-10139-6
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11042-020-10139-6
       \endverb
     \endentry
     \entry{LIU2023}{misc}{}
@@ -444,7 +621,13 @@
       \verb 2303.04147
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/6EPRE9NR/2303.pdf
+      \verb C:\Users\phc7b\Zotero\storage\6EPRE9NR\2303.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2303.04147
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2303.04147
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Mathematics - Optimization and Control}
     \endentry
@@ -494,9 +677,60 @@
       \verb 10.1038/srep34851
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/ZSN7PRT3/Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
+      \verb C:\Users\phc7b\Zotero\storage\ZSN7PRT3\Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/srep34851
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/srep34851
       \endverb
       \keyw{Computational models,Human behaviour}
+    \endentry
+    \entry{OTERO2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=20a0063bc2cd2fdcb7ab8a31872263a7}{%
+           family={Otero},
+           familyi={O\bibinitperiod},
+           given={Johnny\bibnamedelimb Alexander\bibnamedelima Bastidas},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro, Brazil}%
+      }
+      \strng{namehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{fullhash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{bibnamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authorbibnamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authornamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authorfullhash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{{{ALGORITMOS GENÉTICOS APLICADOS À SOLUÇÃO DO PROBLEMA INVERSO BIOMAGNÉTICO}}}
+      \field{type}{{{MESTRE EM ENGENHARIA ELÉTRICA}}}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17771/PUCRio.acad.28372
+      \endverb
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\C3Q7LJP6\Alexander Bastidas Otero - 2016 - ALGORITMOS GENÉTICOS APLICADOS À SOLUÇÃO DO PROBLE.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=28372@1
+      \endverb
+      \verb{url}
+      \verb http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=28372@1
+      \endverb
     \endentry
     \entry{RIBEIRO2013}{book}{}
       \name{author}{2}{}{%
@@ -564,7 +798,34 @@
       \field{title}{Influence of the {{Population Size}} on the {{Genetic Algorithm Performance}} in {{Case}} of {{Cultivation Process Modelling}}}
       \field{year}{2013}
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/H27DIRZA/Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;/home/pcentenaro/Zotero/storage/L3H47NUI/1308.4675.pdf
+      \verb C\:\\Users\\phc7b\\Zotero\\storage\\H27DIRZA\\Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\L3H47NUI\\1308.4675.pdf
+      \endverb
+    \endentry
+    \entry{SAIYED2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a31ac67d2a5ec45bfd257cf1b3d1d00}{%
+           family={Saiyed},
+           familyi={S\bibinitperiod},
+           given={Amanur\bibnamedelima Rahman},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{fullhash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{bibnamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authorbibnamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authornamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authorfullhash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Traveling Salesman Problem, deals with creating the ideal path that a salesman would take while traveling between cities. The solution to any given TSP would be the Shortest way to visit a finite number of cities, visiting each city only once, and then returning to the starting point. We also must assume that if there are two cities, city A and city B for example, it costs the same amount of money to travel from A to B as it does from B to A. For the most part, the solving of a TSP is no longer executed for the intention its name indicates. Instead, it is a foundation for studying general methods that are applied to a wide range of optimization problems.}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{The {{Traveling Salesman}} Problem}
+      \field{year}{2012}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\CN3W9L9X\Saiyed - The Traveling Salesman problem.pdf
       \endverb
     \endentry
     \entry{SASTRY2005}{incollection}{}
@@ -607,7 +868,7 @@
       \field{title}{Genetic {{Algorithms}}}
       \field{year}{2005}
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/69QEWKSV/Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
+      \verb C:\Users\phc7b\Zotero\storage\69QEWKSV\Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
       \endverb
       \keyw{Decision support systems,Mathematical optimization,Search theory}
     \endentry
@@ -654,7 +915,13 @@
       \verb 10.1109/ABLAZE.2015.7154916
       \endverb
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/NT8YZNDA/Shukla et al. - 2015 - Comparative review of selection techniques in gene.pdf;/home/pcentenaro/Zotero/storage/IKSYN47J/7154916.html
+      \verb C\:\\Users\\phc7b\\Zotero\\storage\\NT8YZNDA\\Shukla et al. - 2015 - Comparative review of selection techniques in gene.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\IKSYN47J\\7154916.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/7154916
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/7154916
       \endverb
       \keyw{Convergence,Genetic Algorithm,Genetic algorithms,Knowledge management,Market research,proportionate roulette wheel selection,Ranking Selection,Sociology,Statistics,tournament selection,Wheels}
     \endentry
@@ -715,7 +982,7 @@
       \field{volume}{6}
       \field{year}{2017}
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/GI9HRRX3/Yadav and Sohal - 2017 - Comparative Study of Different Selection Technique.pdf
+      \verb C:\Users\phc7b\Zotero\storage\GI9HRRX3\Yadav and Sohal - 2017 - Comparative Study of Different Selection Technique.pdf
       \endverb
     \endentry
     \entry{ZHANG2020}{article}{}
@@ -740,7 +1007,13 @@
       \field{title}{Linear {{Programming}}}
       \field{year}{2020}
       \verb{file}
-      \verb /home/pcentenaro/Zotero/storage/F34RJ42W/Zhang - LinearProgramming.pdf
+      \verb C:\Users\phc7b\Zotero\storage\F34RJ42W\Zhang - LinearProgramming.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
+      \endverb
+      \verb{url}
+      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
       \endverb
     \endentry
   \enddatalist

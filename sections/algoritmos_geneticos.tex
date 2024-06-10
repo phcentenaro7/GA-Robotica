@@ -8,17 +8,17 @@ Os AGs simulam mecanismos evolutivos para obter soluções para problemas. Para 
 
 Após a determinação do processo de conversão cromossomial supracitado, é necessário determinar uma função de aptidão (\emph{fitness}), ou seja, uma função que retorne valores através dos quais seja possível comparar cromossomos. Na realidade, tal função não precisa ser matematicamente objetiva -- o processo de classificação de uma solução pode ser subjetivo \cite{SASTRY2005}, o que significa que AGs podem ser utilizados para resolver problemas de otimização de caixa preta (\emph{blackbox}), ou seja, problemas cuja função objetivo ou restrições não são conhecidas ou bem-definidas \cite{ALARIE2021}. Feito isso, resta implementar os passos seguintes, cuja descrição é baseada, principalmente, na obra de \textcite{SASTRY2005}.
 
-\subsubsection*{Inicialização}
+\subsubsection{Inicialização}
 
 Na etapa de inicialização, as primeiras soluções para o problema são geradas. Tais soluções podem ser completamente aleatórias ou advir de heurísticas de construção especializadas. Uma diferença importante entre os AGs e as técnicas de recozimento simulado (RS) está no fato que o RS mantém uma única solução ao longo de todo o processo de resolução do problema, ao passo que nos AGs existem $n \geq 2$ soluções. O conjunto de soluções é chamado de \emph{população}, e traz consigo a vantagem de explorar, concorrentemente, várias alternativas diferentes de resolução de problema (a este respeito, o trabalho de \textcite{MURAWSKI2016} é bastante elucidativo, mostrando como vários agentes, utilizando diferentes heurísticas, descobrem uma parte muito maior do conjunto solução de um problema do que agentes individuais).
 
 Apesar do poder de exploração da população, é necessário escolher o seu tamanho com cautela. Populações muito pequenas podem apresentar baixa variedade cromossomial e, consequentemente, convergir para ótimos locais ao longo do processo evolutivo. Por outro lado, populações muito grandes podem ser computacionalmente ineficientes, se populações menores forem capazes de atingir os mesmos resultados \cite{ROEVA2013}. Para problemas com custo computacional muito elevado, \textcite{DELAHAYE2019} recomendam a utilização de métodos sem população, como o RS.
 
-\subsubsection*{Avaliação}
+\subsubsection{Avaliação}
 
 Na avaliação, os cromossomos da população atual são avaliados pela função de aptidão. Como abordado anteriormente, esta função pode ser objetiva ou subjetiva -- o importante é que, ao fim do processo, os cromossomos possam ser comparados. Quando o valor da função de aptidão é objetivo, é necessário especificar o que faz de um valor melhor ou pior do que o outro. Por exemplo, no AG de \textcite{HERMAWANTO2013} para resolução de problemas de minimização, a função de aptidão é a própria função a minimizar e, portanto, soluções que obtiverem valores menores serão melhores. Se o problema a resolver fosse de maximização, valores maiores seriam melhores.
 
-\subsubsection*{Seleção}
+\subsubsection{Seleção}
 
 O processo de seleção leva em conta os resultados da etapa de avaliação para definir casais (pares) de cromossomos. Os métodos de seleção costumam implementar processos estocásticos em que os cromossomos com avaliações melhores são favorecidos. Na sequência, são abordados alguns métodos.
 
@@ -63,3 +63,143 @@ Aplicando-se o método de \emph{ranking} às soluções da \cref{tab:roleta}, ob
 \textbf{Método de torneio:} Seja $P$ a população de soluções de um problema. O método de torneio escolhe subconjuntos $S_i \subseteq P$  de soluções da população e então seleciona a melhor solução de cada subconjunto $S_i$. Assim como o método de \emph{ranking}, este método pode aumentar as probabilidades de seleções piores serem selecionadas, dependendo da maneira como os subconjuntos $S_i$ forem determinados. Geralmente, este método é implementado com torneios de duas soluções, o que o torna uma forma muito rápida de seleção e garante maior variedade de qualidade das soluções escolhidas \cite{SHUKLA2015}.
 
 \textbf{Método de Boltzmann:} Este método é similar ao RS. Existe um parâmetro de temperatura que diminui ao longo do tempo. A altas temperaturas, as chances de selecionar quaisquer soluções são quase iguais. Já a temperaturas mais baixas, as chances de selecionar soluções melhores aumentam.
+
+\subsubsection{Recombinação}
+
+Na etapa de recombinação, também chamada de \emph{crossover}, os cromossomos selecionados são combinados, de modo a gerar novas soluções. Isso pode ser feito de várias maneiras, sendo algumas delas apresentadas a seguir.
+
+\textbf{Recombinação em $k$ pontos de corte:} Este método faz com que cada cromossomo contribua uma ou mais seções para a construção de novas soluções. Para demarcar seções, são definidos $k$ pontos onde um cromossomo do casal começa a contribuir genes e o outro para. Ao alternar a contribuição de cada cromossomo, geram-se dois cromossomos filhos \cite{OTERO2016}. A \cref{fig:recombinação 2 pontos} ilustra este processo quando $k = 2$. Dois cromossomos de seis genes (à esquerda) são combinados definindo um ponto de troca após o segundo gene e outro após o quarto. Os cromossomos à direita são as duas sequências alternadas possíveis resultantes deste processo.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \foreach \x in {1,...,6}
+        {
+            %pai 1
+            \draw[fill=green!20, ultra thick] (\x, 1.5) rectangle ++(1, 1) node[pos=.5] {$g_{\x 1}$};
+            %pai 2
+            \draw[fill=blue!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$g_{\x 2}$};
+            %brace
+            \draw[decorate,decoration={brace,amplitude=5pt,mirror,raise=4ex},ultra thick] (7, -0.5) -- (7, 3);
+        }
+        \foreach \x in {1,...,2}
+        {
+            %filho 1
+            \draw[fill=green!20, ultra thick] (\x + 7.5, 1.5) rectangle ++(1, 1) node[pos=.5] {$g_{\x 1}$};
+            \draw[fill=blue!20, ultra thick] (\x + 9.5, 1.5) rectangle ++(1, 1) node[pos=.5] {$g_{\the\numexpr\x+2 2}$};
+            \draw[fill=green!20, ultra thick] (\x + 11.5, 1.5) rectangle ++(1, 1) node[pos=.5] {$g_{\the\numexpr\x+4 1}$};
+            %filho 2
+            \draw[fill=blue!20, ultra thick] (\x + 7.5, 0) rectangle ++(1, 1) node[pos=.5] {$g_{\x 2}$};
+            \draw[fill=green!20, ultra thick] (\x + 9.5, 0) rectangle ++(1, 1) node[pos=.5] {$g_{\the\numexpr\x+2 1}$};
+            \draw[fill=blue!20, ultra thick] (\x + 11.5, 0) rectangle ++(1, 1) node[pos=.5] {$g_{\the\numexpr\x+4 2}$};
+        }
+        \draw[color=red, ultra thick] (3, 3) -- (3, -0.5);
+        \draw[color=red, ultra thick] (5, 3) -- (5, -0.5);
+    \end{tikzpicture}
+    \caption{Recombinação em 2 pontos de corte gerando dois novos cromossomos.}
+    \label{fig:recombinação 2 pontos}
+\end{figure}
+
+\textbf{Recombinação uniforme:} Sejam $G_1 = (g_{11}, \dots, g_{n1})$ e $G_2 = (g_{12, \dots, g_{n2}})$ cromossomos obtidos na etapa de seleção. A recombinação uniforme passa por cada par de genes $(g_{i1}, g_{i2})$, com $i = 1, \dots, n$, e escolhe um dos genes do par para constituir o cromossomo filho. Para tal, é definido um valor de probabilidade de um ou outro gene ser escolhido -- geralmente, $p = 0.5$, de modo que as escolhas sejam completamente aleatórias \cite{SASTRY2005}. Computacionalmente, isso costuma ser implementado definindo-se um vetor binário chamado \emph{máscara}, de mesmo tamanho que os cromossomos, onde os números 1 e 0 correspondem a selecionar os genes de um ou outro cromossomo pai. A \cref{fig:recombinação uniforme} ilustra o uso de máscara para gerar cromossomos filhos. A alternância no significado dos valores 0 e 1 permite a geração de dois filhos. De certa maneira, a recombinação uniforme pode ser pensada como um método de pontos de corte levado ao extremo, havendo pontos de corte em todos os genes dos cromossomos pais, com a alternância sendo definida pela probabilidade $p$ \cite{BARCELLOS2000}.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \foreach \x/\b in {1/1,2/0,3/0,4/0,5/1,6/1}
+        {
+            %pai 1
+            \draw[fill=green!20, ultra thick] (\x, 3) rectangle ++(1, 1) node[pos=.5] {$g_{\x 1}$};
+            %pai 2
+            \draw[fill=blue!20, ultra thick] (\x, 1.5) rectangle ++(1, 1) node[pos=.5] {$g_{\x 2}$};
+            %máscara
+            \draw[fill=red!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {\b};
+            %brace
+            \draw[decorate,decoration={brace,amplitude=5pt,mirror,raise=4ex},ultra thick] (7, -0.5) -- (7, 4.5);
+            \ifthenelse{\b = 1}{\draw[fill=green!20, ultra thick] (\x + 7.5, 2.25) rectangle ++(1, 1) node[pos=.5] {$g_{\x 1}$};
+            \draw[fill=blue!20, ultra thick] (\x + 7.5, 0.75) rectangle ++(1, 1) node[pos=.5] {$g_{\x 2}$};}{\draw[fill=green!20, ultra thick] (\x + 7.5, 0.75) rectangle ++(1, 1) node[pos=.5] {$g_{\x 1}$};
+            \draw[fill=blue!20, ultra thick] (\x + 7.5, 2.25) rectangle ++(1, 1) node[pos=.5] {$g_{\x 2}$};}
+        }
+    \end{tikzpicture}
+    \caption{Recombinação uniforme de cromossomos usando máscara.}
+    \label{fig:recombinação uniforme}
+\end{figure}
+
+De acordo com \textcite{KATOCH2021}, as recombinações em $k$ pontos de corte são preferíveis pela simplicidade de implementação, ao passo que a recombinação uniforme é preferível pela sua maior aleatoriedade e seu potencial para gerar soluções diferenciadas. No entanto, estas técnicas são mais vantajosas quando aplicadas a populações grandes -- para populações pequenas, elas podem levar a soluções com pouca diversidade.
+
+\textbf{Recombinação de mapeamento parcial:} Em inglês, \emph{partially matched crossover} (PMX). Sejam $G_1 = (g_{11}, \dots, g_{n1})$ e $G_2 = (g_{12}, \dots, g_{n2})$ cromossomos pais. Dois pontos de corte, $i$ e $j$, com $i < j \leq n$, são definidos, e os genes entre os pontos de corte passam a formar pares $(g_{k1}, g_{k2})$. Então, para $k = i, \dots, j$, procura-se pelo gene de $G_1$ equivalente a $g_{k2}$ e troca-se a sua posição em $G_1$ com a posição de $g_{k1}$. O processo contrário é feito para $G_2$. A \cref{fig:PMX} ilustra este processo numericamente. Os pontos de corte definem os pares $(3, 5)$ e $(6, 2)$, ou seja, em ambos os cromossomos, as posições dos genes 3 e 5 são trocadas, bem como as posições dos genes 6 e 2.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \foreach \x/\y/\z/\yb/\zb in {1/4/1/4/1,2/1/6/1/2,3/3/5/5/3,4/6/2/2/6,5/2/3/6/5,6/5/4/3/4}
+        {
+            %pai 1
+            \draw[fill=green!20, ultra thick] (\x, 1.5) rectangle ++(1, 1) node[pos=.5] {$\y$};
+            %pai 2
+            \draw[fill=blue!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$\z$};
+            %brace
+            \draw[decorate,decoration={brace,amplitude=5pt,mirror,raise=4ex},ultra thick] (7, -0.5) -- (7, 3);
+            %filho 1
+            \draw[fill=green!20, ultra thick] (\x + 7.5, 1.5) rectangle ++(1, 1) node[pos=.5] {$\yb$};
+            %filho 2
+            \draw[fill=blue!20, ultra thick] (\x + 7.5, 0) rectangle ++(1, 1) node[pos=.5] {$\zb$};
+        }
+        \draw[color=red, ultra thick] (3, 3) -- (3, -0.5);
+        \draw[color=red, ultra thick] (5, 3) -- (5, -0.5);
+        \draw[<->, ultra thick] (3.5, 2.5) |- (6.5, 3.25) -| (6.5, 2.5);
+        \draw[<->, ultra thick] (4.5, 2.5) |- (5.5, 3.5) -| (5.5, 2.5);
+        \draw[<->, ultra thick] (3.5, 0) |- (5.5, -0.75) -| (5.5, 0);
+        \draw[<->, ultra thick] (4.5, 0) |- (2.5, -1) -| (2.5, 0);
+    \end{tikzpicture}
+    \caption{Recombinação de mapeamento parcial, ou PMX.}
+    \label{fig:PMX}
+\end{figure}
+
+\textbf{Recombinações baseadas em ordem:} Para determinados problemas, como o problema do caixeiro viajante \cite{SAIYED2012}, é desejável manter a ordem de certos cromossomos intacta. Nestes casos, utilizam-se recombinações baseadas em ordem. Segundo \textcite{SASTRY2005}, o método de \textcite{DAVIS1985} é um exemplo deste tipo de recombinação, que começa com a definição de dois pontos de corte entre os cromossomos pais. O conteúdo genético de cada pai entre os pontos de corte é copiado para os cromossomos filhos nas mesmas posições. A \cref{fig:recombinação ordem 1} ilustra este processo.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \foreach \x/\y/\z in {1/A/E,2/D/C,3/F/B,4/E/A,5/C/D,6/B/F}
+        {
+            %pai 1
+            \draw[fill=green!20, ultra thick] (\x, 1.5) rectangle ++(1, 1) node[pos=.5] {$\y$};
+            %pai 2
+            \draw[fill=blue!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$\z$};
+            %brace
+            \draw[decorate,decoration={brace,amplitude=5pt,mirror,raise=4ex},ultra thick] (7, -0.5) -- (7, 3);
+            \ifthenelse{\x < 3 \OR \x > 4}{
+                \draw[ultra thick] (\x + 7.5, 0) rectangle ++(1, 1) node[pos=.5] {$\cdot$};
+                \draw[ultra thick] (\x + 7.5, 1.5) rectangle ++(1, 1) node[pos=.5] {$\cdot$};}{
+                \draw[fill=green!20, ultra thick] (\x + 7.5, 1.5) rectangle ++(1, 1) node[pos=.5] {$\y$};
+                \draw[fill=blue!20, ultra thick] (\x + 7.5, 0) rectangle ++(1, 1) node[pos=.5] {$\z$};
+            }
+        }
+        \draw[color=red, ultra thick] (3, 3) -- (3, -0.5);
+        \draw[color=red, ultra thick] (5, 3) -- (5, -0.5);
+    \end{tikzpicture}
+    \caption{Primeiro passo de uma recombinação baseada em ordem.}
+    \label{fig:recombinação ordem 1}
+\end{figure}
+
+Feito este procedimento, procede-se da seguinte maneira: Para o cromossomo filho 1, é feita uma varredura dos genes do cromossomo pai 2. Sempre que um gene diferente dos presentes no cromossomo filho 1 for encontrado, ele é colocado na posição vazia mais próxima do começo do cromossomo filho. Para o cromossomo filho 2, o mesmo processo é feito com o cromossomo pai 1. A \cref{fig:recombinação ordem 2} mostra o resultado deste processo para os cromossomos da \cref{fig:recombinação ordem 1}.
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \foreach \x/\y/\z in {1/C/D,2/B/C,3/F/B,4/E/A,5/A/F,6/D/E}
+        {
+            \ifthenelse{\x < 3 \OR \x > 4}{
+                \draw[fill=blue!20, ultra thick] (\x, 1.5) rectangle ++(1, 1) node[pos=.5] {$\y$};
+                \draw[fill=green!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$\z$};
+            }{
+                \draw[fill=green!20, ultra thick] (\x, 1.5) rectangle ++(1, 1) node[pos=.5] {$\y$};
+                \draw[fill=blue!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$\z$};
+            }
+        }
+        \draw[color=red, ultra thick] (3, 3) -- (3, -0.5);
+        \draw[color=red, ultra thick] (5, 3) -- (5, -0.5);
+    \end{tikzpicture}
+    \caption{Segundo passo de uma recombinação baseada em ordem.}
+    \label{fig:recombinação ordem 2}
+\end{figure}

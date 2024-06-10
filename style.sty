@@ -13,6 +13,7 @@
 	\setdefaultlanguage{brazil}
 	\setmonofont{DejaVu Sans Mono}[Scale=MatchLowercase]
 \fi
+\usepackage{ifthen}
 \usepackage{indentfirst}
 \usepackage{amsthm,amssymb}
 \usepackage{amsmath}
@@ -68,7 +69,7 @@
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \usepackage{parnotes}
 \usepackage{tikz}
-\usetikzlibrary{graphs,quotes,calc,matrix}
+\usetikzlibrary{graphs,quotes,calc,matrix,math}
 \newcommand*\circled[1]{%
   \tikz[baseline=(C.base)]\node[draw,circle,inner sep=0.5pt](C) {#1};\!
 }
