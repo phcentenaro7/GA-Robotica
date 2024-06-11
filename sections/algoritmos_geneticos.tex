@@ -221,7 +221,6 @@ O processo de mutação visa adicionar aleatoriedade aos cromossomos gerados por
             }{
                 \draw[fill=green!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$g_{\x}$};
             }
-            %brace
             \draw[->, ultra thick] (7.25, 0.5) -- (8.25, 0.5);
             %seta
             \draw[->, ultra thick] (6.5, 1) |- (3, 1.5) -- (3, 1);
@@ -250,7 +249,6 @@ O processo de mutação visa adicionar aleatoriedade aos cromossomos gerados por
             }{
                 \draw[fill=green!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$g_{\x}$};
             }
-            %brace
             \draw[->, ultra thick] (7.25, 0.5) -- (8.25, 0.5);
             %pós
             \ifthenelse{\x = 2 \OR \x = 6}{
@@ -277,7 +275,6 @@ O processo de mutação visa adicionar aleatoriedade aos cromossomos gerados por
             }{
                 \draw[fill=green!20, ultra thick] (\x, 0) rectangle ++(1, 1) node[pos=.5] {$\y$};
             }
-            %brace
             \draw[->, ultra thick] (7.25, 0.5) -- (8.25, 0.5);
             %pós
             \ifthenelse{\x = 3}{
@@ -290,3 +287,9 @@ O processo de mutação visa adicionar aleatoriedade aos cromossomos gerados por
     \caption{Mutação \emph{flip} ($g_3$ selecionado).}
     \label{fig:mutação flip}
 \end{figure}
+
+\subsubsection{Substituição}
+
+A etapa de substituição envolve atualizar a população com os cromossomos gerados nos processos de recombinação e mutação. \textcite{MASSAGO2013} destaca dois tipos principais de substituição: generacional e \emph{steady-state}. Na substituição geracional, todos os indivíduos da população atual são substituídos pelos novos indivíduos, com a possível exceção de alguns indivíduos denominados elite. Preservar uma elite da população anterior pode ser útil para garantir que as melhores, ou mesmo piores, soluções serão mantidas. Na substituição \emph{steady-state}, os indivíduos gerados por recombinação só entram na população caso exista solução pior na população atual que eles possam substituir. \textcite{SASTRY2005} fornecem uma descrição mais geral do \emph{steady-state}, segundo a qual é possível escolher outros parâmetros de substituição de indivíduos da população.
+
+Após o término da etapa de substituição, o AG deve checar se alguma condição foi atingida (número máximo de iterações alcançado, valor objetivo mínimo atingido, etc.). Se sim, o AG deve parar e retornar a população atual, ou a melhor solução encontrada, ou um histórico de soluções. Do contrário, volta-se para a etapa de avaliação.

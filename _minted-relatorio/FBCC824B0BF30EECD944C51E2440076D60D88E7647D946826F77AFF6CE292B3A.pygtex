@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{        }\PYG{n}{obs}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{[}\PYG{n}{obstaculo}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{),}
+\PYG{+w}{        }\PYG{n}{obstaculo}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{),}
+\PYG{+w}{        }\PYG{n}{obstaculo}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{7}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{),}
+\PYG{+w}{        }\PYG{n}{obstaculo}\PYG{p}{(}\PYG{l+m+mi}{8}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{3}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mi}{5}\PYG{p}{)]}
+\PYG{+w}{        }\PYG{n}{largura}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{10}
+\PYG{+w}{        }\PYG{n}{∆}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}
+\PYG{+w}{        }\PYG{n}{E}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{criar\PYGZus{}ecra}\PYG{p}{(}\PYG{n}{obs}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{largura}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Δ}\PYG{o}{=}\PYG{n}{Δ}\PYG{p}{)}
+\PYG{+w}{        }\PYG{n}{grafico}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{mapear}\PYG{p}{(}\PYG{n}{obs}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{largura}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ecra}\PYG{o}{=}\PYG{n}{E}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{Δ}\PYG{o}{=}\PYG{n}{Δ}\PYG{p}{)}
+\end{Verbatim}

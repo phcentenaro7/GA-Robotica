@@ -195,6 +195,71 @@
       \field{title}{Introduction to {{Linear Optimization}}}
       \field{year}{1997}
     \endentry
+    \entry{BEZANSON2015}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=17e68031e06f57a7e83caeb4e0aed827}{%
+           family={Bezanson},
+           familyi={B\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=01a6ca61fcd12a3a071ec49304df57f8}{%
+           family={Edelman},
+           familyi={E\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bca7c93f55e669f71c4ff95e68ac9538}{%
+           family={Karpinski},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{07e3452af3652a626dc1d02355fda942}
+      \strng{fullhash}{651af5e2dc744eabe31cd448eb05d640}
+      \strng{bibnamehash}{651af5e2dc744eabe31cd448eb05d640}
+      \strng{authorbibnamehash}{651af5e2dc744eabe31cd448eb05d640}
+      \strng{authornamehash}{07e3452af3652a626dc1d02355fda942}
+      \strng{authorfullhash}{651af5e2dc744eabe31cd448eb05d640}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Bridging cultures that have often been distant, Julia combines expertise from the diverse fields of computer science and computational science to create a new approach to numerical computing. Julia is designed to be easy and fast. Julia questions notions generally held as "laws of nature" by practitioners of numerical computing: 1. High-level dynamic programs have to be slow. 2. One must prototype in one language and then rewrite in another language for speed or deployment, and 3. There are parts of a system for the programmer, and other parts best left untouched as they are built by the experts. We introduce the Julia programming language and its design --- a dance between specialization and abstraction. Specialization allows for custom treatment. Multiple dispatch, a technique from computer science, picks the right algorithm for the right circumstance. Abstraction, what good computation is really about, recognizes what remains the same after differences are stripped away. Abstractions in mathematics are captured as code through another technique from computer science, generic programming. Julia shows that one can have machine performance without sacrificing human convenience.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{7}
+      \field{number}{arXiv:1411.1607}
+      \field{shorttitle}{Julia}
+      \field{title}{Julia: {{A Fresh Approach}} to {{Numerical Computing}}}
+      \field{urlday}{11}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1411.1607
+      \endverb
+      \verb{eprint}
+      \verb 1411.1607
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\phc7b\\Zotero\\storage\\AITPGC7A\\Bezanson et al. - 2015 - Julia A Fresh Approach to Numerical Computing.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\JXPFFSQN\\1411.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1411.1607
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1411.1607
+      \endverb
+      \keyw{Computer Science - Mathematical Software}
+    \endentry
     \entry{CARVALHO}{misc}{}
       \name{author}{1}{}{%
         {{hash=775d99133d5615d3ebc043e13e2f0d1a}{%
@@ -256,6 +321,42 @@
       \endverb
       \verb{url}
       \verb https://repositorio.ufsc.br/handle/123456789/250623
+      \endverb
+    \endentry
+    \entry{CESAR2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=55c592128a221d601c385e617983bd09}{%
+           family={César},
+           familyi={C\bibinitperiod},
+           given={Sulamita\bibnamedelimb Maria\bibnamedelima Comini},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3bc820029c748f0e354b032efb281eee}{%
+           family={Gazire},
+           familyi={G\bibinitperiod},
+           given={Dra\bibnamedelimb Eliane\bibnamedelima Scheid},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{fullhash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{bibnamehash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{authorbibnamehash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{authornamehash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{authorfullhash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{portuguese}
+      \field{title}{{MINICURSO DE GEOMETRIA TÁXI}}
+      \field{year}{2010}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\L3EJ427C\César and Gazire - MINICURSO DE GEOMETRIA TÁXI.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www1.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20150306113049.pdf
+      \endverb
+      \verb{url}
+      \verb http://www1.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20150306113049.pdf
       \endverb
     \endentry
     \entry{DAVIS1985}{inproceedings}{}
@@ -631,6 +732,32 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Mathematics - Optimization and Control}
     \endentry
+    \entry{MASSAGO2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=629845cc864bd3a3c9b8f939f54abcfb}{%
+           family={Massago},
+           familyi={M\bibinitperiod},
+           given={Sadao},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \strng{fullhash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \strng{bibnamehash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \strng{authorbibnamehash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \strng{authornamehash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \strng{authorfullhash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{portuguese}
+      \field{month}{8}
+      \field{title}{{Introdução ao Algoritmo Genético}}
+      \field{year}{2013}
+      \verb{file}
+      \verb C:\Users\phc7b\Zotero\storage\9VGCS34L\Massago and de - Introdução ao Algoritmo Genético.pdf
+      \endverb
+    \endentry
     \entry{MURAWSKI2016}{article}{}
       \name{author}{2}{}{%
         {{hash=10b795dc2c3498c2c0026a37e8addc88}{%
@@ -871,6 +998,60 @@
       \verb C:\Users\phc7b\Zotero\storage\69QEWKSV\Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
       \endverb
       \keyw{Decision support systems,Mathematical optimization,Search theory}
+    \endentry
+    \entry{SEDIGHI2004}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=16af1a880296e3f8b37cc207013a7cbd}{%
+           family={Sedighi},
+           familyi={S\bibinitperiod},
+           given={K.H.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0bce9790baf32b43cfa540fa6e06af46}{%
+           family={Ashenayi},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=67ee607518d86de815c3b2e8c9cabc10}{%
+           family={Manikas},
+           familyi={M\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8176a2775b112564d553368889b0c4d8}{%
+           family={Wainwright},
+           familyi={W\bibinitperiod},
+           given={R.L.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e4643f3d8e97035315997b447e02f635}{%
+           family={Tai},
+           familyi={T\bibinitperiod},
+           given={Heng-Ming},
+           giveni={H\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f0fc4d053782ff26dc71686f7d79fa2}
+      \strng{fullhash}{9d0154515c14cab41135179fcbbbd678}
+      \strng{bibnamehash}{9d0154515c14cab41135179fcbbbd678}
+      \strng{authorbibnamehash}{9d0154515c14cab41135179fcbbbd678}
+      \strng{authornamehash}{4f0fc4d053782ff26dc71686f7d79fa2}
+      \strng{authorfullhash}{9d0154515c14cab41135179fcbbbd678}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work presents results of our work in development of a genetic algorithm based path-planning algorithm for local obstacle avoidance (local feasible path) of a mobile robot in a given search space. The method tries to find not only a valid path but also an optimal one. The objectives are to minimize the length of the path and the number of turns. The proposed path-planning method allows a free movement of the robot in any direction so that the path-planner can handle complicated search spaces.}
+      \field{booktitle}{{{IEEE Congress}} on {{Evolutionary Computation}}}
+      \field{isbn}{978-0-7803-8515-3}
+      \field{month}{7}
+      \field{title}{Autonomous Local Path Planning for a Mobile Robot Using a Genetic Algorithm}
+      \field{volume}{2}
+      \field{year}{2004}
+      \field{pages}{1338\bibrangedash 1345 Vol.2}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/CEC.2004.1331052
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\phc7b\\Zotero\\storage\\GL3TAYNF\\Sedighi et al. - 2004 - Autonomous local path planning for a mobile robot .pdf;C\:\\Users\\phc7b\\Zotero\\storage\\MKGHTM2N\\autonomous-local-path-planning-for-a-mobile-robot-using-a-geneti.pdf.pdf
+      \endverb
     \endentry
     \entry{SHUKLA2015}{inproceedings}{}
       \name{author}{3}{}{%

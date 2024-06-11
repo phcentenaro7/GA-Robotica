@@ -6,10 +6,10 @@ function dentro(x, y, obstaculo)
 	return x ≥ obstaculo.x[1] && x ≤ obstaculo.x[2] && y ≥ obstaculo.y[1] && y ≤ obstaculo.y[3]
 end
 
-function criar_ecra(obstaculos, largura, altura; Δ = 1)
-    E = Matrix{Bool}(undef, (largura / Δ + 1) |> floor |> Int, (altura / Δ + 1) |> floor |> Int)
+function criar_ecra(obstaculos, largura; Δ = 1)
+    E = Matrix{Bool}(undef, (largura / Δ + 1) |> floor |> Int, (largura / Δ + 1) |> floor |> Int)
     for i in eachindex(IndexCartesian(), E)
-        E[i] = dentro.((i[2] - 1) * Δ, (i[1] - 1) * Δ, obstaculos) |> !any
+        E[i] = dentro.((i[2]) * Δ, (i[1]) * Δ, obstaculos) |> !any
     end
     return E
 end
@@ -18,16 +18,16 @@ function coordenadas_ecra(E, Δ, tipo)
     x, y = [], []
     for i in eachindex(IndexCartesian(), E)
         if E[i] == tipo
-            push!(x, (i[2] - 1) * Δ)
-            push!(y, (i[1] - 1) * Δ)
+            push!(x, (i[2] - 1) * Δ + 1)
+            push!(y, (i[1] - 1) * Δ + 1)
         end
     end
     return x, y
 end
 
-function mapear(obstaculos, largura, altura, origem, destino; ecra=[], Δ = 1)
-	p = plot(framestyle=:origin, leg=:false)
-	p = scatter!([largura], [altura], alpha=0.0)
+function mapear(obstaculos, largura; ecra=[], Δ = 1)
+	p = plot(xlim=[1, largura + 1], ylim=[1, largura + 1], leg=:false)
+	p = scatter!([largura], [largura], alpha=0.0)
 	for obstaculo ∈ obstaculos
 		p = plot!(obstaculo, color=:black)
 	end
@@ -76,11 +76,11 @@ function mapear_cromossomo(grafico, cromossomo, Δ, cor)
         nx, ny = novo
         if anterior ≠ (0, 0)
             if ordem[i - 1] == HORIZONTAL_VERTICAL
-                grafico = plot(grafico, Δ * ([ax; nx] .- 1), Δ * ([ay; ay] .- 1), color=cor, linewidth=5)
-                grafico = plot(grafico, Δ * ([nx; nx] .- 1), Δ * ([ay; ny] .- 1), color=cor,  linewidth=5)
+                grafico = plot(grafico, Δ * ([ax; nx]), Δ * ([ay; ay]), color=cor, linewidth=5)
+                grafico = plot(grafico, Δ * ([nx; nx]), Δ * ([ay; ny]), color=cor,  linewidth=5)
             else
-                grafico = plot(grafico, Δ * ([ax; ax] .- 1), Δ * ([ay; ny] .- 1), color=cor,  linewidth=5)
-                grafico = plot(grafico, Δ * ([ax; nx] .- 1), Δ * ([ny; ny] .- 1), color=cor, linewidth=5)
+                grafico = plot(grafico, Δ * ([ax; ax]), Δ * ([ay; ny]), color=cor,  linewidth=5)
+                grafico = plot(grafico, Δ * ([ax; nx]), Δ * ([ny; ny]), color=cor, linewidth=5)
             end
         end
         anterior = novo
@@ -324,24 +324,40 @@ end
 
 ##
 
-obs1 = [obstaculo(0, 5, 6, 4),
-		obstaculo(4, 3, 0, 4),
-		obstaculo(8, 1, 3, 7)]
-origem1 = [1,1]
-destino1 = [10,10]
-largura1 = 10
-altura1 = 10
-Δexemplo = 0.75
+# obs = [obstaculo(0, 5, 6, 4),
+# 		obstaculo(4, 3, 0, 4),
+# 		obstaculo(8, 1, 3, 7)]
+# largura = 10
+# Δ = 1
+
+# obs1 = [obstaculo(0, 5, 6, 4),
+# 		obstaculo(4, 3, 0, 4),
+# 		obstaculo(8, 1, 3, 7)]
+# origem1 = [1,1]
+# destino1 = [10,10]
+# largura1 = 10
+# altura1 = 10
+# Δexemplo = 0.75
+
 # obs1 = [obstaculo(1, 1, 0, 4),
 # 		obstaculo(3, 1, 2, 5),
 # 		obstaculo(3, 3, 2, 1),
-#         obstaculo(5, 2, 4, 1)]
+#          obstaculo(5, 2, 4, 1)]
 # origem1 = [1,1]
 # destino1 = [7,7]
 # largura1 = 7
 # altura1 = 7
 # Δexemplo = 0.25
-Eexemplo = criar_ecra(obs1, largura1, altura1, Δ = Δexemplo)
-grafico = mapear(obs1, largura1, altura1, origem1, destino1, ecra=Eexemplo, Δ = Δexemplo)
-populacao = algoritmo_genetico(50, Eexemplo, 0.05, 10000, 100, grafico, Δexemplo, :green)
-mapear_cromossomo(grafico, populacao[20], Δexemplo, :green)
+
+obs = [obstaculo(1.5, 2, 1, 3)]
+largura = 4
+∆ = 1
+E = criar_ecra(obs, largura, Δ=Δ)
+grafico = mapear(obs, largura, ecra=E, Δ=Δ)
+graf = mapear_cromossomo(grafico, [MOVIMENTO_TIPO_COLUNA, 1, 5, 5, 5, 5, 1, 1, HORIZONTAL_VERTICAL, HORIZONTAL_VERTICAL, 0, 0], Δ, :green)
+graf = plot(graf, [1, 2, 5], [1, 5, 5], color=:maroon1, linewidth = 5)
+# E = criar_ecra(obs, largura, Δ = Δ)
+# grafico = mapear(obs, largura, ecra=E, Δ = Δ)
+# graf = mapear_cromossomo(grafico, [MOVIMENTO_TIPO_LINHA, 1, 3, 1, 2, 2, 6, 0, 0, 0, 0, 0, 0, 0], 1, :green)
+# populacao = algoritmo_genetico(50, Eexemplo, 0.05, 10000, 100, grafico, Δexemplo, :green)
+# mapear_cromossomo(grafico, populacao[20], Δexemplo, :green)
