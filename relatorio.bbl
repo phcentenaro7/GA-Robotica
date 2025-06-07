@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,24 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{ALARIE2021}{article}{}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{ciencia2016}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{A saga das mariposas}
+      \field{urlday}{6}
+      \field{urlmonth}{7}
+      \field{urlyear}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cienciahoje.org.br/artigo/a-saga-da-mariposa/
+      \endverb
+      \verb{url}
+      \verb https://cienciahoje.org.br/artigo/a-saga-da-mariposa/
+      \endverb
+    \endentry
+    \entry{ALARIE2021}{article}{}{}
       \name{author}{5}{}{%
         {{hash=8e5ea33b1f349df1da1f5bd73344900b}{%
            family={Alarie},
@@ -49,10 +65,12 @@
       }
       \strng{namehash}{eaa7ca500775c2ca44b41c74ee8fb894}
       \strng{fullhash}{1a20a53e35d0722cc305f94a0f4769c8}
+      \strng{fullhashraw}{1a20a53e35d0722cc305f94a0f4769c8}
       \strng{bibnamehash}{1a20a53e35d0722cc305f94a0f4769c8}
       \strng{authorbibnamehash}{1a20a53e35d0722cc305f94a0f4769c8}
       \strng{authornamehash}{eaa7ca500775c2ca44b41c74ee8fb894}
       \strng{authorfullhash}{1a20a53e35d0722cc305f94a0f4769c8}
+      \strng{authorfullhashraw}{1a20a53e35d0722cc305f94a0f4769c8}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -74,17 +92,43 @@
       \verb 10.1016/j.ejco.2021.100011
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\GYAJ2H7H\S2192440621001386.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2192440621001386
+      \verb /home/pcentenaro/Zotero/storage/GYAJ2H7H/S2192440621001386.html
       \endverb
       \keyw{Applications,Blackbox optimization,Derivative-free optimization,Mesh adaptive direct search}
     \endentry
-    \entry{BARCELLOS2000}{thesis}{}
+    \entry{INFOQ}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Algoritmos genéticos oferecem melhor solução para otimização de redes neurais}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.infoq.com/br/news/2020/02/alexa-genetic-deep-learning/
+      \endverb
+      \verb{url}
+      \verb https://www.infoq.com/br/news/2020/02/alexa-genetic-deep-learning/
+      \endverb
+    \endentry
+    \entry{JOHN2011}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Algoritmos genéticos: As invenções que evoluem}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.inovacaotecnologica.com.br/noticias/noticia.php?artigo=invencoes-evolutivas-algoritmos-geneticos&id=010150110526
+      \endverb
+      \verb{url}
+      \verb https://www.inovacaotecnologica.com.br/noticias/noticia.php?artigo=invencoes-evolutivas-algoritmos-geneticos&id=010150110526
+      \endverb
+    \endentry
+    \entry{BARCELLOS2000}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=a73f3f6ff675d5c62ed208bf0e02a237}{%
            family={Barcellos},
@@ -100,10 +144,12 @@
       }
       \strng{namehash}{a73f3f6ff675d5c62ed208bf0e02a237}
       \strng{fullhash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{fullhashraw}{a73f3f6ff675d5c62ed208bf0e02a237}
       \strng{bibnamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
       \strng{authorbibnamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
       \strng{authornamehash}{a73f3f6ff675d5c62ed208bf0e02a237}
       \strng{authorfullhash}{a73f3f6ff675d5c62ed208bf0e02a237}
+      \strng{authorfullhashraw}{a73f3f6ff675d5c62ed208bf0e02a237}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -122,16 +168,10 @@
       \verb 10.11606/D.3.2000.tde-05092001-141334
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\LKYUN9XQ\Barcellos - 2000 - Algoritmos genéticos adaptativos um estudo compar.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.teses.usp.br/teses/disponiveis/3/3141/tde-05092001-141334/
-      \endverb
-      \verb{url}
-      \verb http://www.teses.usp.br/teses/disponiveis/3/3141/tde-05092001-141334/
+      \verb /home/pcentenaro/Zotero/storage/LKYUN9XQ/Barcellos - 2000 - Algoritmos genéticos adaptativos um estudo compar.pdf
       \endverb
     \endentry
-    \entry{BAZARAA2010}{book}{}
+    \entry{BAZARAA2010}{book}{}{}
       \name{author}{3}{}{%
         {{hash=d49fc6bf7e7df63e3aa0d0c0defdc8c6}{%
            family={Bazaraa},
@@ -154,10 +194,12 @@
       }
       \strng{namehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
       \strng{fullhash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{fullhashraw}{9a57fbc471e9662e27e7b3edac3fbeb0}
       \strng{bibnamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
       \strng{authorbibnamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
       \strng{authornamehash}{9a57fbc471e9662e27e7b3edac3fbeb0}
       \strng{authorfullhash}{9a57fbc471e9662e27e7b3edac3fbeb0}
+      \strng{authorfullhashraw}{9a57fbc471e9662e27e7b3edac3fbeb0}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -166,7 +208,7 @@
       \field{title}{Linear {{Programming}} and {{Network Flows}}}
       \field{year}{2010}
     \endentry
-    \entry{BERTSIMAS1997}{book}{}
+    \entry{BERTSIMAS1997}{book}{}{}
       \name{author}{2}{}{%
         {{hash=5b57425178d5ae2d2835ef44cb330e42}{%
            family={Bertsimas},
@@ -184,10 +226,12 @@
       }
       \strng{namehash}{c45925647d08f7da29491319a56e359a}
       \strng{fullhash}{c45925647d08f7da29491319a56e359a}
+      \strng{fullhashraw}{c45925647d08f7da29491319a56e359a}
       \strng{bibnamehash}{c45925647d08f7da29491319a56e359a}
       \strng{authorbibnamehash}{c45925647d08f7da29491319a56e359a}
       \strng{authornamehash}{c45925647d08f7da29491319a56e359a}
       \strng{authorfullhash}{c45925647d08f7da29491319a56e359a}
+      \strng{authorfullhashraw}{c45925647d08f7da29491319a56e359a}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -195,7 +239,7 @@
       \field{title}{Introduction to {{Linear Optimization}}}
       \field{year}{1997}
     \endentry
-    \entry{BEZANSON2015}{misc}{}
+    \entry{BEZANSON2015}{misc}{}{}
       \name{author}{4}{}{%
         {{hash=17e68031e06f57a7e83caeb4e0aed827}{%
            family={Bezanson},
@@ -223,10 +267,12 @@
       }
       \strng{namehash}{07e3452af3652a626dc1d02355fda942}
       \strng{fullhash}{651af5e2dc744eabe31cd448eb05d640}
+      \strng{fullhashraw}{651af5e2dc744eabe31cd448eb05d640}
       \strng{bibnamehash}{651af5e2dc744eabe31cd448eb05d640}
       \strng{authorbibnamehash}{651af5e2dc744eabe31cd448eb05d640}
       \strng{authornamehash}{07e3452af3652a626dc1d02355fda942}
       \strng{authorfullhash}{651af5e2dc744eabe31cd448eb05d640}
+      \strng{authorfullhashraw}{651af5e2dc744eabe31cd448eb05d640}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -250,17 +296,11 @@
       \verb 1411.1607
       \endverb
       \verb{file}
-      \verb C\:\\Users\\phc7b\\Zotero\\storage\\AITPGC7A\\Bezanson et al. - 2015 - Julia A Fresh Approach to Numerical Computing.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\JXPFFSQN\\1411.html
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1411.1607
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1411.1607
+      \verb /home/pcentenaro/Zotero/storage/AITPGC7A/Bezanson et al. - 2015 - Julia A Fresh Approach to Numerical Computing.pdf;/home/pcentenaro/Zotero/storage/JXPFFSQN/1411.html
       \endverb
       \keyw{Computer Science - Mathematical Software}
     \endentry
-    \entry{CARVALHO}{misc}{}
+    \entry{CARVALHO}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=775d99133d5615d3ebc043e13e2f0d1a}{%
            family={Carvalho},
@@ -272,30 +312,27 @@
       }
       \strng{namehash}{775d99133d5615d3ebc043e13e2f0d1a}
       \strng{fullhash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{fullhashraw}{775d99133d5615d3ebc043e13e2f0d1a}
       \strng{bibnamehash}{775d99133d5615d3ebc043e13e2f0d1a}
       \strng{authorbibnamehash}{775d99133d5615d3ebc043e13e2f0d1a}
       \strng{authornamehash}{775d99133d5615d3ebc043e13e2f0d1a}
       \strng{authorfullhash}{775d99133d5615d3ebc043e13e2f0d1a}
+      \strng{authorfullhashraw}{775d99133d5615d3ebc043e13e2f0d1a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{howpublished}{https://sites.icmc.usp.br/andre/research/genetic/}
       \field{title}{Algoritmos {{Genéticos}}}
       \field{urlday}{5}
       \field{urlmonth}{6}
       \field{urlyear}{2024}
       \field{urldateera}{ce}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\EQN6JRBC\genetic.html
-      \endverb
-      \verb{urlraw}
-      \verb https://sites.icmc.usp.br/andre/research/genetic/
-      \endverb
-      \verb{url}
-      \verb https://sites.icmc.usp.br/andre/research/genetic/
+      \verb /home/pcentenaro/Zotero/storage/EQN6JRBC/genetic.html
       \endverb
     \endentry
-    \entry{CENTENARO2023}{misc}{}
+    \entry{CENTENARO2023}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=12508bd8dd9d628f0f7f5494ed8905f2}{%
            family={Centenaro},
@@ -305,10 +342,12 @@
       }
       \strng{namehash}{12508bd8dd9d628f0f7f5494ed8905f2}
       \strng{fullhash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{fullhashraw}{12508bd8dd9d628f0f7f5494ed8905f2}
       \strng{bibnamehash}{12508bd8dd9d628f0f7f5494ed8905f2}
       \strng{authorbibnamehash}{12508bd8dd9d628f0f7f5494ed8905f2}
       \strng{authornamehash}{12508bd8dd9d628f0f7f5494ed8905f2}
       \strng{authorfullhash}{12508bd8dd9d628f0f7f5494ed8905f2}
+      \strng{authorfullhashraw}{12508bd8dd9d628f0f7f5494ed8905f2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -316,14 +355,8 @@
       \field{abstract}{Os problemas de roteamento de veículos (PRVs) dizem respeito à escolha da melhor rota que cada veículo de uma ou mais frotas pode realizar, dado um conjunto de pontos de atendimento. Entre os problemas desta categoria, podemos citar a entrega de encomendas, a definição de linhas de ônibus, o posicionamento de ambulâncias, a coleta de lixo e muitos outros. Dependendo da natureza do problema, é possível encontrar restrições quanto às capacidades de carga dos veículos, às janelas de tempo disponíveis para servir cada ponto, ao consumo de energia dos veículos elétricos e vários outros fatores. O objetivo deste trabalho de iniciação científica é estudar os aspectos matemáticos da modelagem e resolução computacional dos PRVs. Para tal, várias abordagens foram utilizadas. Para contextualizar e motivar o estudo da roteirização de veículos, estudaram-se tendências de urbanização, entre as quais pode-se citar a substituição gradual de ônibus a combustão por veículos elétricos ou híbridos. Entre as muitas barreiras à introdução destes veículos nas frotas, uma notável é a necessidade de garantir que as linhas dos ônibus elétricos e híbridos sejam otimizadas, de modo que os gastos com estações de recarga sejam compensados o mais rápido possível, sem prejudicar a população. Estudou-se também o espraiamento urbano, condição na qual a população mais pobre de uma cidade é forçada a estabelecer moradia em regiões marginais. Como resultado, definir rotas de ônibus que melhor atendam todos os cidadãos se torna um processo mais complicado. Para compreender a matemática por trás dos PRVs, estudaram-se teoria de grafos e otimização linear. A terminologia dos grafos é muito difundida entre pesquisadores de roteirização e, portanto, sua investigação é necessária para o processo de modelagem dos problemas. Já a otimização linear é usada em conjunto com outras técnicas para resolver os modelos gerados. O estudo de otimização linear deste trabalho resultou na implementação de um pacote em linguagem Julia, o Caique.jl, que resolve problemas utilizando o método simplex. Este pacote pode ser acessado em https://github.com/phcentenaro7/Caique.jl. Para realizar testes computacionais de roteirização, optou-se por modelar três formulações do problema do caixeiro viajante (PCV, o PRV mais simples que existe), implementando-as no pacote JuMP, do Julia, que faz a tradução dos modelos para cada uma das três ferramentas de resolução (solvers) testadas. Foi possível constatar diferenças nos desempenhos das formulações e dos solvers e relacioná-las a questões matemáticas relatadas na literatura. Por fim, constatou-se a possibilidade de interpretar e comparar modelos mais complexos de PRVs com base no que foi aprendido com os PCVs. Concluiu-se que este trabalho abre espaço a investigações mais aprofundadas sobre PRVs no futuro.}
       \field{title}{Fundamentos Matemáticos e Computacionais de Problemas de Roteamento de Veículos}
       \field{year}{2023}
-      \verb{urlraw}
-      \verb https://repositorio.ufsc.br/handle/123456789/250623
-      \endverb
-      \verb{url}
-      \verb https://repositorio.ufsc.br/handle/123456789/250623
-      \endverb
     \endentry
-    \entry{CESAR2010}{article}{}
+    \entry{CESAR2010}{article}{}{}
       \name{author}{2}{}{%
         {{hash=55c592128a221d601c385e617983bd09}{%
            family={César},
@@ -338,10 +371,12 @@
       }
       \strng{namehash}{3879cd93a1d44be4ce814dcf9153e9cc}
       \strng{fullhash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{fullhashraw}{3879cd93a1d44be4ce814dcf9153e9cc}
       \strng{bibnamehash}{3879cd93a1d44be4ce814dcf9153e9cc}
       \strng{authorbibnamehash}{3879cd93a1d44be4ce814dcf9153e9cc}
       \strng{authornamehash}{3879cd93a1d44be4ce814dcf9153e9cc}
       \strng{authorfullhash}{3879cd93a1d44be4ce814dcf9153e9cc}
+      \strng{authorfullhashraw}{3879cd93a1d44be4ce814dcf9153e9cc}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -350,16 +385,26 @@
       \field{title}{{MINICURSO DE GEOMETRIA TÁXI}}
       \field{year}{2010}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\L3EJ427C\César and Gazire - MINICURSO DE GEOMETRIA TÁXI.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www1.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20150306113049.pdf
-      \endverb
-      \verb{url}
-      \verb http://www1.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20150306113049.pdf
+      \verb /home/pcentenaro/Zotero/storage/L3EJ427C/César and Gazire - MINICURSO DE GEOMETRIA TÁXI.pdf
       \endverb
     \endentry
-    \entry{DAVIS1985}{inproceedings}{}
+    \entry{scielo2007}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{Comportamento auto-organizável em algoritmos genéticos aplicados a robôs móveis em ambientes dinâmicos}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2007}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scielo.br/j/ca/a/pPYRLxMpynVrCv9SrdDhY6y/?lang=pt
+      \endverb
+      \verb{url}
+      \verb https://www.scielo.br/j/ca/a/pPYRLxMpynVrCv9SrdDhY6y/?lang=pt
+      \endverb
+    \endentry
+    \entry{DAVIS1985}{inproceedings}{}{}
       \name{author}{1}{}{%
         {{hash=7ba97d0451d256e105b6c0c7a99b8481}{%
            family={Davis},
@@ -375,10 +420,12 @@
       }
       \strng{namehash}{7ba97d0451d256e105b6c0c7a99b8481}
       \strng{fullhash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{fullhashraw}{7ba97d0451d256e105b6c0c7a99b8481}
       \strng{bibnamehash}{7ba97d0451d256e105b6c0c7a99b8481}
       \strng{authorbibnamehash}{7ba97d0451d256e105b6c0c7a99b8481}
       \strng{authornamehash}{7ba97d0451d256e105b6c0c7a99b8481}
       \strng{authorfullhash}{7ba97d0451d256e105b6c0c7a99b8481}
+      \strng{authorfullhashraw}{7ba97d0451d256e105b6c0c7a99b8481}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -397,7 +444,7 @@
       \field{pages}{162\bibrangedash 164}
       \range{pages}{3}
     \endentry
-    \entry{DELAHAYE2019}{incollection}{}
+    \entry{DELAHAYE2019}{incollection}{}{}
       \name{author}{3}{}{%
         {{hash=724f19394ff905be4ed7b245765f1656}{%
            family={Delahaye},
@@ -435,13 +482,16 @@
       }
       \strng{namehash}{d0d6c52cffbe38f91adb7894454bf665}
       \strng{fullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{fullhashraw}{d0d6c52cffbe38f91adb7894454bf665}
       \strng{bibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
       \strng{authorbibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
       \strng{authornamehash}{d0d6c52cffbe38f91adb7894454bf665}
       \strng{authorfullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorfullhashraw}{d0d6c52cffbe38f91adb7894454bf665}
       \strng{editorbibnamehash}{428631794113b74d16ac1f3a6f241136}
       \strng{editornamehash}{428631794113b74d16ac1f3a6f241136}
       \strng{editorfullhash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorfullhashraw}{428631794113b74d16ac1f3a6f241136}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -463,16 +513,55 @@
       \verb 10.1007/978-3-319-91086-4_1
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\9ACJKHCX\Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-319-91086-4_1
+      \verb /home/pcentenaro/Zotero/storage/9ACJKHCX/Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
       \endverb
     \endentry
-    \entry{GENDREAU2010}{book}{}
+    \entry{GEISLER2002}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=bbdfefd9a73a97bc42dcb962ec845597}{%
+           family={Geisler},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=34020fa01ed09fb8e740cfcf529926be}{%
+           family={Manikas},
+           familyi={M\bibinitperiod},
+           given={T.W.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{fullhash}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{fullhashraw}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{bibnamehash}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{authorbibnamehash}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{authornamehash}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{authorfullhash}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \strng{authorfullhashraw}{2d12dcf042cbc7e31b5a10b90b5e1c46}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes the development of a genetic algorithm (GA) based path-planning software for local obstacle avoidance. The GA uses a novel encoding technique, which was developed to optimize the information content of the GA structure. Simulation results were used to further optimize the developed software and determine its optimum field of operation. The results show that the GA finds valid solutions to the path-planning problem within reasonable time and can therefore be used for real world applications.}
+      \field{booktitle}{The 2002 45th {{Midwest Symposium}} on {{Circuits}} and {{Systems}}, 2002. {{MWSCAS-2002}}.}
+      \field{month}{8}
+      \field{title}{Autonomous Robot Navigation System Using a Novel Value Encoded Genetic Algorithm}
+      \field{urlday}{16}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{III\bibrangedash III}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/MWSCAS.2002.1186966
+      \endverb
+      \verb{file}
+      \verb /home/pcentenaro/Zotero/storage/5DURBLY5/1186966.html
+      \endverb
+      \keyw{Application software,Automatic control,Biological cells,Encoding,Genetic algorithms,Navigation,Orbital robotics,Path planning,Robot kinematics,Robotics and automation}
+    \endentry
+    \entry{GENDREAU2010}{book}{}{}
       \name{editor}{2}{}{%
         {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{%
            family={Gendreau},
@@ -493,10 +582,12 @@
       }
       \strng{namehash}{428631794113b74d16ac1f3a6f241136}
       \strng{fullhash}{428631794113b74d16ac1f3a6f241136}
+      \strng{fullhashraw}{428631794113b74d16ac1f3a6f241136}
       \strng{bibnamehash}{428631794113b74d16ac1f3a6f241136}
       \strng{editorbibnamehash}{428631794113b74d16ac1f3a6f241136}
       \strng{editornamehash}{428631794113b74d16ac1f3a6f241136}
       \strng{editorfullhash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorfullhashraw}{428631794113b74d16ac1f3a6f241136}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{editor}
@@ -516,16 +607,10 @@
       \verb 10.1007/978-1-4419-1665-5
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\E7262WVJ\Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
-      \endverb
-      \verb{url}
-      \verb https://link.springer.com/10.1007/978-1-4419-1665-5
+      \verb /home/pcentenaro/Zotero/storage/E7262WVJ/Gendreau and Potvin - 2010 - Handbook of Metaheuristics.pdf
       \endverb
     \endentry
-    \entry{GEORGE1980}{article}{}
+    \entry{GEORGE1980}{article}{}{}
       \name{author}{2}{}{%
         {{hash=c3475e35954864b0296c80ad888f5dba}{%
            family={George},
@@ -540,10 +625,12 @@
       }
       \strng{namehash}{f4882abe5f70c8d4afab1756843b65f0}
       \strng{fullhash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{fullhashraw}{f4882abe5f70c8d4afab1756843b65f0}
       \strng{bibnamehash}{f4882abe5f70c8d4afab1756843b65f0}
       \strng{authorbibnamehash}{f4882abe5f70c8d4afab1756843b65f0}
       \strng{authornamehash}{f4882abe5f70c8d4afab1756843b65f0}
       \strng{authorfullhash}{f4882abe5f70c8d4afab1756843b65f0}
+      \strng{authorfullhashraw}{f4882abe5f70c8d4afab1756843b65f0}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -567,16 +654,53 @@
       \verb 10.1016/0305-0548(80)90001-5
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\EGQTJQGP\George and Robinson - 1980 - A heuristic for packing boxes into a container
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/0305054880900015
+      \verb /home/pcentenaro/Zotero/storage/EGQTJQGP/George and Robinson - 1980 - A heuristic for packing boxes into a container
       \endverb
     \endentry
-    \entry{HERMAWANTO2013}{article}{}
+    \entry{HERMANU2002}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=2a36bcfdd03c9f292c745797e9f96d78}{%
+           family={Hermanu},
+           familyi={H\bibinitperiod},
+           given={Aditia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7726e380513ca4701525b533e5271248}{%
+           family={Ashenayi},
+           familyi={A\bibinitperiod},
+           given={Kaveh},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0c2a7b98ffc3abf08d74dfbe92b93a48}{%
+           family={Manikas},
+           familyi={M\bibinitperiod},
+           given={Theodore\bibnamedelima W},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ab6f661943bc658f13db85c5cf553f44}{%
+           family={Wainwright},
+           familyi={W\bibinitperiod},
+           given={Roger\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ac8f5072e1862466935959b11dda1ed}
+      \strng{fullhash}{89d77f676a4e5042ba5d40708e36c668}
+      \strng{fullhashraw}{89d77f676a4e5042ba5d40708e36c668}
+      \strng{bibnamehash}{89d77f676a4e5042ba5d40708e36c668}
+      \strng{authorbibnamehash}{89d77f676a4e5042ba5d40708e36c668}
+      \strng{authornamehash}{1ac8f5072e1862466935959b11dda1ed}
+      \strng{authorfullhash}{89d77f676a4e5042ba5d40708e36c668}
+      \strng{authorfullhashraw}{89d77f676a4e5042ba5d40708e36c668}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The goal for real-time mobile robots is to travel the shortest path in minimal time while avoiding obstacles in a navigation environment. Autonomous navigation allows robots to plan this path without the need for human intervention. The path-planning problem has been shown to be NP-hard, thus this problem is often solved using heuristic optimization methods such as genetic algorithms. An important part of the genetic algorithm solution is the structure of the genotype that represents paths in the navigation environment. The genotype must represent a valid path, but still be simple to process by the genetic algorithm in order to reduce computational requirements. Unfortunately, many contemporary genetic path-planning algorithms use complex structures that require a significant amount of processing, which can affect the real-time response of the robot. This paper describes the development of a genotype structure that contains only the essential information for path planning, which allows for more efficient processing. A genetic algorithm using this structure was tested on a variety of simulated navigation spaces and was found to produce valid, obstacle-free paths for most cases.}
+      \field{langid}{english}
+      \field{title}{{{AUTONOMOUS ROBOT NAVIGATION USING A GENETIC ALGORITHM WITH AN EFFICIENT GENOTYPE STRUCTURE}}}
+      \field{year}{2002}
+      \verb{file}
+      \verb /home/pcentenaro/Zotero/storage/ZZI3IZ5K/Hermanu et al. - AUTONOMOUS ROBOT NAVIGATION USING A GENETIC ALGORI.pdf
+      \endverb
+    \endentry
+    \entry{HERMAWANTO2013}{article}{}{}
       \name{author}{1}{}{%
         {{hash=01f8fdc9af0d84483195589637a89d48}{%
            family={Hermawanto},
@@ -586,10 +710,12 @@
       }
       \strng{namehash}{01f8fdc9af0d84483195589637a89d48}
       \strng{fullhash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{fullhashraw}{01f8fdc9af0d84483195589637a89d48}
       \strng{bibnamehash}{01f8fdc9af0d84483195589637a89d48}
       \strng{authorbibnamehash}{01f8fdc9af0d84483195589637a89d48}
       \strng{authornamehash}{01f8fdc9af0d84483195589637a89d48}
       \strng{authorfullhash}{01f8fdc9af0d84483195589637a89d48}
+      \strng{authorfullhashraw}{01f8fdc9af0d84483195589637a89d48}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -599,10 +725,10 @@
       \field{title}{Genetic {{Algorithm}} for {{Solving Simple Mathematical Equality Problem}}}
       \field{year}{2013}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\7JEMVBUF\Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
+      \verb /home/pcentenaro/Zotero/storage/7JEMVBUF/Hermawanto - Genetic Algorithm for Solving Simple Mathematical .pdf
       \endverb
     \endentry
-    \entry{KATOCH2021}{article}{}
+    \entry{KATOCH2021}{article}{}{}
       \name{author}{3}{}{%
         {{hash=fda3358187a4813b12cc84afd9636dde}{%
            family={Katoch},
@@ -622,10 +748,12 @@
       }
       \strng{namehash}{cd1ac3ca133eb3560ff89df4cf058d81}
       \strng{fullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{fullhashraw}{cd1ac3ca133eb3560ff89df4cf058d81}
       \strng{bibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
       \strng{authorbibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
       \strng{authornamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
       \strng{authorfullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorfullhashraw}{cd1ac3ca133eb3560ff89df4cf058d81}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
@@ -650,16 +778,10 @@
       \verb 10.1007/s11042-020-10139-6
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\MNTU3I9G\Katoch et al. - 2021 - A review on genetic algorithm past, present, and .pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/s11042-020-10139-6
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/s11042-020-10139-6
+      \verb /home/pcentenaro/Zotero/storage/MNTU3I9G/Katoch et al. - 2021 - A review on genetic algorithm past, present, and .pdf
       \endverb
     \endentry
-    \entry{LIU2023}{misc}{}
+    \entry{LIU2023}{misc}{}{}
       \name{author}{6}{}{%
         {{hash=0138deaf332692ced30d823b9cebc488}{%
            family={Liu},
@@ -697,10 +819,12 @@
       }
       \strng{namehash}{a3e2ca47748eb0c5a65d12f76d1076e4}
       \strng{fullhash}{f6179582330caa790ecef8da5e443b34}
+      \strng{fullhashraw}{f6179582330caa790ecef8da5e443b34}
       \strng{bibnamehash}{f6179582330caa790ecef8da5e443b34}
       \strng{authorbibnamehash}{f6179582330caa790ecef8da5e443b34}
       \strng{authornamehash}{a3e2ca47748eb0c5a65d12f76d1076e4}
       \strng{authorfullhash}{f6179582330caa790ecef8da5e443b34}
+      \strng{authorfullhashraw}{f6179582330caa790ecef8da5e443b34}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -722,43 +846,68 @@
       \verb 2303.04147
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\6EPRE9NR\2303.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2303.04147
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2303.04147
+      \verb /home/pcentenaro/Zotero/storage/6EPRE9NR/2303.pdf
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Mathematics - Optimization and Control}
     \endentry
-    \entry{MASSAGO2013}{article}{}
+    \entry{LUCAS2000}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=629845cc864bd3a3c9b8f939f54abcfb}{%
-           family={Massago},
-           familyi={M\bibinitperiod},
-           given={Sadao},
-           giveni={S\bibinitperiod}}}%
+        {{hash=72678975e1b2368583b17bd0984f524a}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Diogo\bibnamedelima Correa},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \strng{namehash}{629845cc864bd3a3c9b8f939f54abcfb}
-      \strng{fullhash}{629845cc864bd3a3c9b8f939f54abcfb}
-      \strng{bibnamehash}{629845cc864bd3a3c9b8f939f54abcfb}
-      \strng{authorbibnamehash}{629845cc864bd3a3c9b8f939f54abcfb}
-      \strng{authornamehash}{629845cc864bd3a3c9b8f939f54abcfb}
-      \strng{authorfullhash}{629845cc864bd3a3c9b8f939f54abcfb}
+      \strng{namehash}{72678975e1b2368583b17bd0984f524a}
+      \strng{fullhash}{72678975e1b2368583b17bd0984f524a}
+      \strng{fullhashraw}{72678975e1b2368583b17bd0984f524a}
+      \strng{bibnamehash}{72678975e1b2368583b17bd0984f524a}
+      \strng{authorbibnamehash}{72678975e1b2368583b17bd0984f524a}
+      \strng{authornamehash}{72678975e1b2368583b17bd0984f524a}
+      \strng{authorfullhash}{72678975e1b2368583b17bd0984f524a}
+      \strng{authorfullhashraw}{72678975e1b2368583b17bd0984f524a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Os algoritmos genéticos utilizam conceitos provenientes do princípio de seleção natural de Darwin para abordar uma série ampla de problemas, em especial de otimização. Robustos, genéricos e facilmente adaptáveis, consistem de uma técnica amplamente estudada e utilizada em diversas áreas. Neste trabalho é feita uma descrição dos elementos básicos da teoria de algoritmos genéticos, bem como a implementação de um aplicativo experimental para a resolução de um problema de grade horária, com o objetivo de medir alguns índices de desempenho entre várias técnicas desta metodologia.}
+      \field{title}{Algoritmos Genéticos: um estudo de seus conceitos fundamentais e aplicação no problema de grade horária}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://www2.ufpel.edu.br/prg/sisbi/bibct/acervo/info/2000/Mono-Diogo.pdf
+      \endverb
+      \verb{url}
+      \verb https://www2.ufpel.edu.br/prg/sisbi/bibct/acervo/info/2000/Mono-Diogo.pdf
+      \endverb
+    \endentry
+    \entry{FARNESE2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4273edfa19e1b675956af74d3d4144ae}{%
+           family={Matheus\bibnamedelimb Alves\bibnamedelimb e\bibnamedelima Farnese},
+           familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Gustavo\bibnamedelimb Medeiros\bibnamedelimb Freitas\bibnamedelimb e\bibnamedelimb Gustavo\bibnamedelima Pessin},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{fullhash}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{fullhashraw}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{bibnamehash}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{authorbibnamehash}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{authornamehash}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{authorfullhash}{4273edfa19e1b675956af74d3d4144ae}
+      \strng{authorfullhashraw}{4273edfa19e1b675956af74d3d4144ae}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{portuguese}
-      \field{month}{8}
-      \field{title}{{Introdução ao Algoritmo Genético}}
-      \field{year}{2013}
-      \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\9VGCS34L\Massago and de - Introdução ao Algoritmo Genético.pdf
-      \endverb
+      \field{abstract}{The inverse kinematics of a robotic manipulator consists on determining the robot’s joints positions so that its end-effector reaches a defined position and orientation. Depending on the robot’s architecture and the desired pose, the problem may have one, multiple or even no solution. This article presents the development and application of genetic algorithm techniques to determine the inverse kinematics of a robotic manipulator with six degrees of freedom. Focusing on the specific application, we investigate different genetic algorithms configurations, considering the effects of the initial population, number of generations, selection methods, crossover and mutation. The genetic algorithms are implemented in MatLab, which is integrated with RobotStudio software for controlling virtual and real robots from ABB. The proposed solution is validated through simulations with an IRB120 manipulator, controlling the robot’s joints in order to achieve the desired pose.}
+      \field{journaltitle}{Sociedade Brasileira de Automática}
+      \field{number}{1}
+      \field{title}{Algoritmos Genéticos para Determinação da Cinemática Inversa de um Robô de 6DoF}
+      \field{volume}{1}
+      \field{year}{2020}
     \endentry
-    \entry{MURAWSKI2016}{article}{}
+    \entry{MURAWSKI2016}{article}{}{}
       \name{author}{2}{}{%
         {{hash=10b795dc2c3498c2c0026a37e8addc88}{%
            family={Murawski},
@@ -776,10 +925,12 @@
       }
       \strng{namehash}{f986b46d05b31965e598fbb12028e856}
       \strng{fullhash}{f986b46d05b31965e598fbb12028e856}
+      \strng{fullhashraw}{f986b46d05b31965e598fbb12028e856}
       \strng{bibnamehash}{f986b46d05b31965e598fbb12028e856}
       \strng{authorbibnamehash}{f986b46d05b31965e598fbb12028e856}
       \strng{authornamehash}{f986b46d05b31965e598fbb12028e856}
       \strng{authorfullhash}{f986b46d05b31965e598fbb12028e856}
+      \strng{authorfullhashraw}{f986b46d05b31965e598fbb12028e856}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -804,17 +955,11 @@
       \verb 10.1038/srep34851
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\ZSN7PRT3\Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/srep34851
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/srep34851
+      \verb /home/pcentenaro/Zotero/storage/ZSN7PRT3/Murawski and Bossaerts - 2016 - How Humans Solve Complex Problems The Case of the.pdf
       \endverb
       \keyw{Computational models,Human behaviour}
     \endentry
-    \entry{OTERO2016}{thesis}{}
+    \entry{OTERO2016}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=20a0063bc2cd2fdcb7ab8a31872263a7}{%
            family={Otero},
@@ -830,10 +975,12 @@
       }
       \strng{namehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
       \strng{fullhash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{fullhashraw}{20a0063bc2cd2fdcb7ab8a31872263a7}
       \strng{bibnamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
       \strng{authorbibnamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
       \strng{authornamehash}{20a0063bc2cd2fdcb7ab8a31872263a7}
       \strng{authorfullhash}{20a0063bc2cd2fdcb7ab8a31872263a7}
+      \strng{authorfullhashraw}{20a0063bc2cd2fdcb7ab8a31872263a7}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
@@ -850,16 +997,10 @@
       \verb 10.17771/PUCRio.acad.28372
       \endverb
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\C3Q7LJP6\Alexander Bastidas Otero - 2016 - ALGORITMOS GENÉTICOS APLICADOS À SOLUÇÃO DO PROBLE.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=28372@1
-      \endverb
-      \verb{url}
-      \verb http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&nrSeq=28372@1
+      \verb /home/pcentenaro/Zotero/storage/C3Q7LJP6/Alexander Bastidas Otero - 2016 - ALGORITMOS GENÉTICOS APLICADOS À SOLUÇÃO DO PROBLE.pdf
       \endverb
     \endentry
-    \entry{RIBEIRO2013}{book}{}
+    \entry{RIBEIRO2013}{book}{}{}
       \name{author}{2}{}{%
         {{hash=fcdbb3819d1bc3a2e7d021db9e285a74}{%
            family={Ribeiro},
@@ -880,10 +1021,12 @@
       }
       \strng{namehash}{c0955db4d8b1a13a0ea51a2795c5d392}
       \strng{fullhash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{fullhashraw}{c0955db4d8b1a13a0ea51a2795c5d392}
       \strng{bibnamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
       \strng{authorbibnamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
       \strng{authornamehash}{c0955db4d8b1a13a0ea51a2795c5d392}
       \strng{authorfullhash}{c0955db4d8b1a13a0ea51a2795c5d392}
+      \strng{authorfullhashraw}{c0955db4d8b1a13a0ea51a2795c5d392}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
@@ -892,7 +1035,7 @@
       \field{title}{Otimização {{Contínua}}: {{Aspectos Teóricos}} e {{Computacionais}}}
       \field{year}{2013}
     \endentry
-    \entry{ROEVA2013}{article}{}
+    \entry{ROEVA2013}{article}{}{}
       \name{author}{3}{}{%
         {{hash=133e4ab593ec1410406a4504c974ecdc}{%
            family={Roeva},
@@ -912,10 +1055,12 @@
       }
       \strng{namehash}{a074b4db788f620a017e9b4a810ed897}
       \strng{fullhash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{fullhashraw}{a074b4db788f620a017e9b4a810ed897}
       \strng{bibnamehash}{a074b4db788f620a017e9b4a810ed897}
       \strng{authorbibnamehash}{a074b4db788f620a017e9b4a810ed897}
       \strng{authornamehash}{a074b4db788f620a017e9b4a810ed897}
       \strng{authorfullhash}{a074b4db788f620a017e9b4a810ed897}
+      \strng{authorfullhashraw}{a074b4db788f620a017e9b4a810ed897}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
@@ -925,10 +1070,10 @@
       \field{title}{Influence of the {{Population Size}} on the {{Genetic Algorithm Performance}} in {{Case}} of {{Cultivation Process Modelling}}}
       \field{year}{2013}
       \verb{file}
-      \verb C\:\\Users\\phc7b\\Zotero\\storage\\H27DIRZA\\Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\L3H47NUI\\1308.4675.pdf
+      \verb /home/pcentenaro/Zotero/storage/H27DIRZA/Roeva et al. - 2013 - Influence of the Population Size on the Genetic Al.pdf;/home/pcentenaro/Zotero/storage/L3H47NUI/1308.4675.pdf
       \endverb
     \endentry
-    \entry{SAIYED2012}{article}{}
+    \entry{SAIYED2012}{article}{}{}
       \name{author}{1}{}{%
         {{hash=5a31ac67d2a5ec45bfd257cf1b3d1d00}{%
            family={Saiyed},
@@ -938,10 +1083,12 @@
       }
       \strng{namehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
       \strng{fullhash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{fullhashraw}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
       \strng{bibnamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
       \strng{authorbibnamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
       \strng{authornamehash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
       \strng{authorfullhash}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
+      \strng{authorfullhashraw}{5a31ac67d2a5ec45bfd257cf1b3d1d00}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -952,10 +1099,10 @@
       \field{title}{The {{Traveling Salesman}} Problem}
       \field{year}{2012}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\CN3W9L9X\Saiyed - The Traveling Salesman problem.pdf
+      \verb /home/pcentenaro/Zotero/storage/CN3W9L9X/Saiyed - The Traveling Salesman problem.pdf
       \endverb
     \endentry
-    \entry{SASTRY2005}{incollection}{}
+    \entry{SASTRY2005}{incollection}{}{}
       \name{editor}{3}{}{%
         {{hash=ebd2d6aac26c399b8efe3608f75f3fe1}{%
            family={Sastry},
@@ -981,10 +1128,12 @@
       }
       \strng{namehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
       \strng{fullhash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{fullhashraw}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
       \strng{bibnamehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
       \strng{editorbibnamehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
       \strng{editornamehash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
       \strng{editorfullhash}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
+      \strng{editorfullhashraw}{cf2e9d5a0fc1cc25c28f1dc8538689cd}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{editor}
@@ -995,11 +1144,11 @@
       \field{title}{Genetic {{Algorithms}}}
       \field{year}{2005}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\69QEWKSV\Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
+      \verb /home/pcentenaro/Zotero/storage/69QEWKSV/Burke and Kendall - 2005 - Search methodologies introductory tutorials in op.pdf
       \endverb
       \keyw{Decision support systems,Mathematical optimization,Search theory}
     \endentry
-    \entry{SEDIGHI2004}{inproceedings}{}
+    \entry{SEDIGHI2004}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{hash=16af1a880296e3f8b37cc207013a7cbd}{%
            family={Sedighi},
@@ -1029,10 +1178,12 @@
       }
       \strng{namehash}{4f0fc4d053782ff26dc71686f7d79fa2}
       \strng{fullhash}{9d0154515c14cab41135179fcbbbd678}
+      \strng{fullhashraw}{9d0154515c14cab41135179fcbbbd678}
       \strng{bibnamehash}{9d0154515c14cab41135179fcbbbd678}
       \strng{authorbibnamehash}{9d0154515c14cab41135179fcbbbd678}
       \strng{authornamehash}{4f0fc4d053782ff26dc71686f7d79fa2}
       \strng{authorfullhash}{9d0154515c14cab41135179fcbbbd678}
+      \strng{authorfullhashraw}{9d0154515c14cab41135179fcbbbd678}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -1050,10 +1201,10 @@
       \verb 10.1109/CEC.2004.1331052
       \endverb
       \verb{file}
-      \verb C\:\\Users\\phc7b\\Zotero\\storage\\GL3TAYNF\\Sedighi et al. - 2004 - Autonomous local path planning for a mobile robot .pdf;C\:\\Users\\phc7b\\Zotero\\storage\\MKGHTM2N\\autonomous-local-path-planning-for-a-mobile-robot-using-a-geneti.pdf.pdf
+      \verb /home/pcentenaro/Zotero/storage/GL3TAYNF/Sedighi et al. - 2004 - Autonomous local path planning for a mobile robot .pdf;/home/pcentenaro/Zotero/storage/MKGHTM2N/autonomous-local-path-planning-for-a-mobile-robot-using-a-geneti.pdf.pdf
       \endverb
     \endentry
-    \entry{SHUKLA2015}{inproceedings}{}
+    \entry{SHUKLA2015}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=6a2d1e7bddfd2f0239d0f14660850be5}{%
            family={Shukla},
@@ -1073,10 +1224,12 @@
       }
       \strng{namehash}{c652dd09d101b314c7bfafee3f93bb78}
       \strng{fullhash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{fullhashraw}{c652dd09d101b314c7bfafee3f93bb78}
       \strng{bibnamehash}{c652dd09d101b314c7bfafee3f93bb78}
       \strng{authorbibnamehash}{c652dd09d101b314c7bfafee3f93bb78}
       \strng{authornamehash}{c652dd09d101b314c7bfafee3f93bb78}
       \strng{authorfullhash}{c652dd09d101b314c7bfafee3f93bb78}
+      \strng{authorfullhashraw}{c652dd09d101b314c7bfafee3f93bb78}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -1096,49 +1249,11 @@
       \verb 10.1109/ABLAZE.2015.7154916
       \endverb
       \verb{file}
-      \verb C\:\\Users\\phc7b\\Zotero\\storage\\NT8YZNDA\\Shukla et al. - 2015 - Comparative review of selection techniques in gene.pdf;C\:\\Users\\phc7b\\Zotero\\storage\\IKSYN47J\\7154916.html
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/abstract/document/7154916
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/abstract/document/7154916
+      \verb /home/pcentenaro/Zotero/storage/NT8YZNDA/Shukla et al. - 2015 - Comparative review of selection techniques in gene.pdf;/home/pcentenaro/Zotero/storage/IKSYN47J/7154916.html
       \endverb
       \keyw{Convergence,Genetic Algorithm,Genetic algorithms,Knowledge management,Market research,proportionate roulette wheel selection,Ranking Selection,Sociology,Statistics,tournament selection,Wheels}
     \endentry
-    \entry{SONI2014}{article}{}
-      \name{author}{2}{}{%
-        {{hash=cc492503a0011e022110df6932b27c60}{%
-           family={Soni},
-           familyi={S\bibinitperiod},
-           given={Nitasha},
-           giveni={N\bibinitperiod}}}%
-        {{hash=ca5be8e23dab9e4b357d5b5933044c80}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Tapas},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{d00f09a20e50923e8c2316a787f817a1}
-      \strng{fullhash}{d00f09a20e50923e8c2316a787f817a1}
-      \strng{bibnamehash}{d00f09a20e50923e8c2316a787f817a1}
-      \strng{authorbibnamehash}{d00f09a20e50923e8c2316a787f817a1}
-      \strng{authornamehash}{d00f09a20e50923e8c2316a787f817a1}
-      \strng{authorfullhash}{d00f09a20e50923e8c2316a787f817a1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Genetic Algorithms are the population based search and optimization technique that mimic the process of natural evolution. Different crossover and mutation operators exist to solve the problem that involves large population size. Example of such a problem is travelling sales man problem, which is having a large set of solution. In this paper we will discuss different mutation operators that help in solving the problem.}
-      \field{langid}{english}
-      \field{title}{Study of {{Various Mutation Operators}} in {{Genetic Algorithms}}}
-      \field{volume}{5}
-      \field{year}{2014}
-      \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\U2T6C3T4\Soni and Kumar - 2014 - Study of Various Mutation Operators in Genetic Alg.pdf
-      \endverb
-    \endentry
-    \entry{STEWART2016}{book}{}
+    \entry{STEWART2016}{book}{}{}
       \name{author}{1}{}{%
         {{hash=37b12c56a8629449e8994f442b4d8c35}{%
            family={Stewart},
@@ -1151,10 +1266,12 @@
       }
       \strng{namehash}{37b12c56a8629449e8994f442b4d8c35}
       \strng{fullhash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{fullhashraw}{37b12c56a8629449e8994f442b4d8c35}
       \strng{bibnamehash}{37b12c56a8629449e8994f442b4d8c35}
       \strng{authorbibnamehash}{37b12c56a8629449e8994f442b4d8c35}
       \strng{authornamehash}{37b12c56a8629449e8994f442b4d8c35}
       \strng{authorfullhash}{37b12c56a8629449e8994f442b4d8c35}
+      \strng{authorfullhashraw}{37b12c56a8629449e8994f442b4d8c35}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -1164,7 +1281,7 @@
       \field{volume}{1}
       \field{year}{2016}
     \endentry
-    \entry{YADAV2017}{article}{}
+    \entry{YADAV2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=f9662844ef73fc660ee04689622235cd}{%
            family={Yadav},
@@ -1179,10 +1296,12 @@
       }
       \strng{namehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
       \strng{fullhash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{fullhashraw}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
       \strng{bibnamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
       \strng{authorbibnamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
       \strng{authornamehash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
       \strng{authorfullhash}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
+      \strng{authorfullhashraw}{8c3bcc6fb928d5c3ea631ffa99bb45ad}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{labelnamesource}{author}
@@ -1195,10 +1314,10 @@
       \field{volume}{6}
       \field{year}{2017}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\GI9HRRX3\Yadav and Sohal - 2017 - Comparative Study of Different Selection Technique.pdf
+      \verb /home/pcentenaro/Zotero/storage/GI9HRRX3/Yadav and Sohal - 2017 - Comparative Study of Different Selection Technique.pdf
       \endverb
     \endentry
-    \entry{ZHANG2020}{article}{}
+    \entry{ZHANG2020}{article}{}{}
       \name{author}{1}{}{%
         {{hash=617e1823c3a52470863101944fa8e271}{%
            family={Zhang},
@@ -1208,10 +1327,12 @@
       }
       \strng{namehash}{617e1823c3a52470863101944fa8e271}
       \strng{fullhash}{617e1823c3a52470863101944fa8e271}
+      \strng{fullhashraw}{617e1823c3a52470863101944fa8e271}
       \strng{bibnamehash}{617e1823c3a52470863101944fa8e271}
       \strng{authorbibnamehash}{617e1823c3a52470863101944fa8e271}
       \strng{authornamehash}{617e1823c3a52470863101944fa8e271}
       \strng{authorfullhash}{617e1823c3a52470863101944fa8e271}
+      \strng{authorfullhashraw}{617e1823c3a52470863101944fa8e271}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}
@@ -1220,13 +1341,7 @@
       \field{title}{Linear {{Programming}}}
       \field{year}{2020}
       \verb{file}
-      \verb C:\Users\phc7b\Zotero\storage\F34RJ42W\Zhang - LinearProgramming.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
-      \endverb
-      \verb{url}
-      \verb https://storm.cis.fordham.edu/~zhang/cs5835/slides/LinearProgramming_handout
+      \verb /home/pcentenaro/Zotero/storage/F34RJ42W/Zhang - LinearProgramming.pdf
       \endverb
     \endentry
   \enddatalist

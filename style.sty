@@ -64,12 +64,13 @@
 \usepackage{subcaption}
 \usepackage[brazilian,capitalize,nameinlink,noabbrev]{cleveref}
 % \creflabelformat{algorithm}{#2\textup{(#1)}#3}
+\usepackage{float}
 \usepackage{adjustbox}
 \usepackage{tabularx}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
 \usepackage{parnotes}
 \usepackage{tikz}
-\usetikzlibrary{graphs,quotes,calc,matrix,math}
+\usetikzlibrary{graphs,quotes,calc,matrix,math,backgrounds,arrows.meta,intersections}
 \newcommand*\circled[1]{%
   \tikz[baseline=(C.base)]\node[draw,circle,inner sep=0.5pt](C) {#1};\!
 }
